@@ -78,7 +78,8 @@ restriction is:
   (c) applied asymmetrically based on the identity, affiliation, or
       perceived status of the speaker.
 
-"Surveillance Infrastructure" shall mean any system that:
+"Surveillance Infrastructure" shall mean any system that targets
+noncombatant populations and:
   (a) aggregates behavioral, biometric, or communications data on
       individuals without their explicit, informed, revocable consent
       for each distinct use case; or
@@ -89,10 +90,19 @@ restriction is:
       order.
 Surveillance Infrastructure includes, without limitation: automated
 license plate recognition systems shared with law enforcement; facial
-recognition databases accessible to government entities; location
-tracking systems that aggregate movement patterns; communication
-metadata retention systems; and sensor networks with law enforcement
-integration.
+recognition databases accessible to government entities for domestic
+use; location tracking systems that aggregate civilian movement
+patterns; communication metadata retention systems targeting domestic
+populations; and sensor networks with law enforcement integration
+deployed against noncombatants.
+
+"Noncombatant" shall mean any individual not actively engaged in armed
+conflict as a member of an organized armed force, consistent with the
+principle of distinction under international humanitarian law. Civilian
+populations, including citizens subject to domestic law enforcement,
+are noncombatants. A state's unilateral classification of its own
+civilian population as combatants does not alter their status as
+noncombatants under this License.
 
 "Dominant Position" shall mean any Legal Entity that, together with entities under common control: (a) generates annual gross revenue exceeding one billion United States dollars ($1,000,000,000 USD) from communications, social networking, search, or information distribution services; or (b) operates a platform serving more than fifty million (50,000,000) monthly active users.
 
@@ -186,6 +196,22 @@ the following conditions:
 Section 4.1(b) and Section 4.1(c) as applied to Surveillance
 Infrastructure have NO safe harbor and apply regardless of entity size,
 revenue, or market position.
+
+4.6 Permitted Defense Applications.
+
+Nothing in Section 4 shall be construed to prohibit use of the Work in:
+  (a) defense systems, weapons platforms, or military applications
+      targeting lawful combatants under international humanitarian law;
+  (b) intelligence, reconnaissance, or surveillance systems directed at
+      foreign military forces, hostile non-state armed groups, or
+      individuals lawfully designated as combatants;
+  (c) autonomous systems, including unmanned vehicles and weapons
+      systems, where targeting is limited to lawful military objectives.
+
+The permissions in this Section 4.6 do not extend to systems primarily
+designed or deployed for domestic law enforcement, civilian population
+monitoring, or suppression of noncombatant political activity, regardless
+of how such systems are labeled or classified by the deploying entity.
 
 5. Submission of Contributions.
 
