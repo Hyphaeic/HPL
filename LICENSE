@@ -1,0 +1,271 @@
+Hyphaeic Public License
+Version 1.0, January 2026
+https://github.com/hyphaeic/hpl
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+This license is derived from the Apache License, Version 2.0, with
+additional conditions set forth in Section 4. This is NOT an Apache
+Software Foundation license.
+
+1. Definitions.
+
+"License" shall mean the terms and conditions for use, reproduction,
+and distribution as defined by Sections 1 through 5 of this document.
+
+"Licensor" shall mean the copyright owner or entity authorized by the
+copyright owner that is granting the License.
+
+"Legal Entity" shall mean the union of the acting entity and all other
+entities that control, are controlled by, or are under common control
+with that entity. For the purposes of this definition, "control" means
+(i) the power, direct or indirect, to cause the direction or management
+of such entity, whether by contract or otherwise, or (ii) ownership of
+fifty percent (50%) or more of the outstanding shares, or (iii)
+beneficial ownership of such entity.
+
+"You" (or "Your") shall mean an individual or Legal Entity exercising
+permissions granted by this License.
+
+"Source" form shall mean the preferred form for making modifications,
+including but not limited to software source code, documentation source,
+and configuration files.
+
+"Object" form shall mean any form resulting from mechanical
+transformation or translation of a Source form, including but not
+limited to compiled object code, generated documentation, and
+conversions to other media types.
+
+"Work" shall mean the work of authorship, whether in Source or Object
+form, made available under the License, as indicated by a copyright
+notice that is included in or attached to the work.
+
+"Derivative Works" shall mean any work, whether in Source or Object
+form, that is based on (or derived from) the Work and for which the
+editorial revisions, annotations, elaborations, or other modifications
+represent, as a whole, an original work of authorship. For the purposes
+of this License, Derivative Works shall not include works that remain
+separable from, or merely link (or bind by name) to the interfaces of,
+the Work and Derivative Works thereof.
+
+"Contribution" shall mean any work of authorship, including the original
+version of the Work and any modifications or additions to that Work or
+Derivative Works thereof, that is intentionally submitted to the
+Licensor for inclusion in the Work by the copyright owner or by an
+individual or Legal Entity authorized to submit on behalf of the
+copyright owner. For the purposes of this definition, "submitted" means
+any form of electronic, verbal, or written communication sent to the
+Licensor or its representatives, including but not limited to
+communication on electronic mailing lists, source code control systems,
+and issue tracking systems that are managed by, or on behalf of, the
+Licensor for the purpose of discussing and improving the Work, but
+excluding communication that is conspicuously marked or otherwise
+designated in writing by the copyright owner as "Not a Contribution."
+
+"Contributor" shall mean Licensor and any individual or Legal Entity on
+behalf of whom a Contribution has been received by Licensor and
+subsequently incorporated within the Work.
+
+"Suppression Infrastructure" shall mean any system, whether automated or
+human-operated, that restricts the transmission, display, or
+discoverability of lawful expression based on viewpoint, political
+content, or deviation from institutional consensus, where such
+restriction is:
+  (a) applied without contemporaneous, specific, and public
+      justification citing the exact content at issue; or
+  (b) not subject to transparent reversal metrics published no less
+      than quarterly; or
+  (c) applied asymmetrically based on the identity, affiliation, or
+      perceived status of the speaker.
+
+"Surveillance Infrastructure" shall mean any system that:
+  (a) aggregates behavioral, biometric, or communications data on
+      individuals without their explicit, informed, revocable consent
+      for each distinct use case; or
+  (b) enables the correlation of identity across contexts without user
+      initiation; or
+  (c) provides any government, law enforcement, or intelligence entity
+      access to user data absent a public, individualized judicial
+      order.
+Surveillance Infrastructure includes, without limitation: automated
+license plate recognition systems shared with law enforcement; facial
+recognition databases accessible to government entities; location
+tracking systems that aggregate movement patterns; communication
+metadata retention systems; and sensor networks with law enforcement
+integration.
+
+"Dominant Position" shall mean any Legal Entity that, together with entities under common control: (a) generates annual gross revenue exceeding one billion United States dollars ($1,000,000,000 USD) from communications, social networking, search, or information distribution services; or (b) operates a platform serving more than fifty million (50,000,000) monthly active users.
+
+2. Grant of Copyright License.
+
+Subject to the terms and conditions of this License, each Contributor
+hereby grants to You a perpetual, worldwide, non-exclusive, no-charge,
+royalty-free, irrevocable copyright license to reproduce, prepare
+Derivative Works of, publicly display, publicly perform, sublicense,
+and distribute the Work and such Derivative Works in Source or Object
+form.
+
+3. Grant of Patent License.
+
+Subject to the terms and conditions of this License, each Contributor
+hereby grants to You a perpetual, worldwide, non-exclusive, no-charge,
+royalty-free, irrevocable (except as stated in this section) patent
+license to make, have made, use, offer to sell, sell, import, and
+otherwise transfer the Work, where such license applies only to those
+patent claims licensable by such Contributor that are necessarily
+infringed by their Contribution(s) alone or by combination of their
+Contribution(s) with the Work to which such Contribution(s) was
+submitted. If You institute patent litigation against any entity
+(including a cross-claim or counterclaim in a lawsuit) alleging that
+the Work or a Contribution incorporated within the Work constitutes
+direct or contributory patent infringement, then any patent licenses
+granted to You under this License for that Work shall terminate as of
+the date such litigation is filed.
+
+4. Conditions on Information Sovereignty.
+
+4.1 Prohibited Uses.
+
+This License does not grant rights to any Legal Entity that:
+  (a) operates Suppression Infrastructure; or
+  (b) operates Surveillance Infrastructure; or
+  (c) provides material support, including but not limited to compute
+      resources, API access, training data, hosting services, or
+      integration services, to entities operating Suppression
+      Infrastructure or Surveillance Infrastructure; or
+  (d) holds a Dominant Position and implements any content restriction
+      policy that is not:
+        (i) strictly limited to content illegal in the jurisdiction of
+            the affected user, and
+        (ii) applied uniformly without regard to viewpoint.
+
+4.2 Automatic Termination.
+
+Violation of Section 4.1 terminates this License automatically and
+retroactively ab initio. Upon such termination:
+  (a) all rights granted hereunder are void as if never granted;
+  (b) You shall immediately cease all use, distribution, and
+      development of Derivative Works;
+  (c) You acknowledge that monetary damages are inadequate remedy and
+      consent to injunctive relief without bond in any court of
+      competent jurisdiction;
+  (d) You shall be liable for all enforcement costs including
+      reasonable attorneys' fees and expert witness costs.
+
+4.3 Discovery and Audit.
+
+In any dispute arising under this Section 4, You:
+  (a) consent to disclosure of all internal communications, policies,
+      training materials, and decision logs relating to content
+      moderation, user data handling, and government data requests;
+  (b) waive any claim of trade secret, attorney-client privilege as to
+      non-legal-advice communications, or confidentiality over such
+      materials;
+  (c) consent to independent audit of technical systems for compliance
+      with Section 4.1, at Your expense, by an auditor selected by
+      Licensor.
+
+4.4 Asymmetric Jurisdiction.
+
+Any dispute arising under this License shall be resolved by binding
+arbitration in a jurisdiction selected by Licensor at the time of
+dispute, with proceedings conducted in English. The non-prevailing
+party shall bear all costs of arbitration, including the prevailing
+party's reasonable attorneys' fees.
+
+4.5 Safe Harbor.
+
+Section 4.1(a), Section 4.1(c) as applied to Suppression Infrastructure,
+and Section 4.1(d) do not apply to Legal Entities that satisfy ALL of
+the following conditions:
+  (a) employ fewer than one hundred (100) individuals; and
+  (b) generate less than fifty million United States dollars
+      ($50,000,000 USD) in annual gross revenue; and
+  (c) do not hold a Dominant Position.
+
+Section 4.1(b) and Section 4.1(c) as applied to Surveillance
+Infrastructure have NO safe harbor and apply regardless of entity size,
+revenue, or market position.
+
+5. Submission of Contributions.
+
+Unless You explicitly state otherwise, any Contribution intentionally
+submitted for inclusion in the Work by You to the Licensor shall be
+under the terms and conditions of this License, without any additional
+terms or conditions. Notwithstanding the above, nothing herein shall
+supersede or modify the terms of any separate license agreement you may
+have executed with Licensor regarding such Contributions.
+
+6. Trademarks.
+
+This License does not grant permission to use the trade names,
+trademarks, service marks, or product names of the Licensor, except as
+required for reasonable and customary use in describing the origin of
+the Work and reproducing the content of the NOTICE file.
+
+7. Disclaimer of Warranty.
+
+Unless required by applicable law or agreed to in writing, Licensor
+provides the Work (and each Contributor provides its Contributions) on
+an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+express or implied, including, without limitation, any warranties or
+conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR
+A PARTICULAR PURPOSE. You are solely responsible for determining the
+appropriateness of using or redistributing the Work and assume any
+risks associated with Your exercise of permissions under this License.
+
+8. Limitation of Liability.
+
+In no event and under no legal theory, whether in tort (including
+negligence), contract, or otherwise, unless required by applicable law
+(such as deliberate and grossly negligent acts) or agreed to in writing,
+shall any Contributor be liable to You for damages, including any
+direct, indirect, special, incidental, or consequential damages of any
+character arising as a result of this License or out of the use or
+inability to use the Work (including but not limited to damages for
+loss of goodwill, work stoppage, computer failure or malfunction, or
+any and all other commercial damages or losses), even if such
+Contributor has been advised of the possibility of such damages.
+
+9. Accepting Warranty or Additional Liability.
+
+While redistributing the Work or Derivative Works thereof, You may
+choose to offer, and charge a fee for, acceptance of support, warranty,
+indemnity, or other liability obligations and/or rights consistent with
+this License. However, in accepting such obligations, You may act only
+on Your own behalf and on Your sole responsibility, not on behalf of
+any other Contributor, and only if You agree to indemnify, defend, and
+hold each Contributor harmless for any liability incurred by, or claims
+asserted against, such Contributor by reason of your accepting any such
+warranty or additional liability.
+
+10. Severability.
+
+If any provision of this License is held to be unenforceable, such
+provision shall be reformed only to the extent necessary to make it
+enforceable, and the remaining provisions shall continue in full force
+and effect.
+
+END OF TERMS AND CONDITIONS
+
+APPENDIX: How to apply the Hyphaeic Public License to your work.
+
+To apply this License to your work, attach the following boilerplate
+notice, with the fields enclosed by brackets "[]" replaced with your
+own identifying information. (Don't include the brackets!) The text
+should be enclosed in the appropriate comment syntax for the file
+format.
+
+   Copyright [2026] [Hyphaeic SPC.]
+
+   Licensed under the Hyphaeic Public License, Version 1.0 (the
+   "License"); you may not use this file except in compliance with
+   the License. You may obtain a copy of the License at
+
+       https://github.com/hyphaeic/hpl
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+   implied. See the License for the specific language governing
+   permissions and limitations under the License.
