@@ -220,7 +220,7 @@ Dominant platforms face stricter requirements under Section 4.1(d): their conten
 | Autonomous drone targeting enemy military installation | ✅ Yes | Lawful military objective |
 | Missile guidance system | ✅ Yes | Defense application |
 | Military intelligence gathering on foreign armed forces | ✅ Yes | Targets combatants |
-| Border surveillance of civilian migrants | ❌ No | Targets noncombatants |
+| Border surveillance of naturalised citizens | ❌ No | Targets noncombatants |
 | "Counter-terrorism" system monitoring domestic political groups | ❌ No | Domestic civilian monitoring |
 | Police drone surveillance labeled as "defense" | ❌ No | Label doesn't change civilian targeting |
 | National Guard deployment against domestic protesters | ❌ No | Civilians are noncombatants regardless of state classification |
