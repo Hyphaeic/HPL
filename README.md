@@ -82,4 +82,4 @@ The Hyphaeic Public License itself is dedicated to the public domain under [CC0 
 
 ---
 
-*Hyphaeic SPC · Seattle, WA*
+*With love, Hyphaeic SPC · Seattle, WA*
