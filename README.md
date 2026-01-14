@@ -108,7 +108,7 @@ It also prohibits providing material support (hosting, APIs, compute) to such op
 | Autonomous drone targeting enemy military installation | ✅ Yes | Lawful military objective |
 | Missile guidance system | ✅ Yes | Defense application |
 | Military intelligence gathering on foreign armed forces | ✅ Yes | Targets combatants |
-| Border surveillance of civilian refugees | ❌ No | Targets noncombatants |
+| Border surveillance of civilians | ❌ No | Targets noncombatants |
 | "Counter-terrorism" system monitoring domestic political groups | ❌ No | Domestic civilian monitoring |
 | Police drone surveillance labeled as "defense" | ❌ No | Label doesn't change civilian targeting |
 | National Guard deployment against domestic protesters | ❌ No | Civilians are noncombatants regardless of state classification |
