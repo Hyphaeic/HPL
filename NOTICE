@@ -1,0 +1,22 @@
+STOK-Core
+Copyright 2026 Hyphaeic
+
+This product includes software developed by Hyphaeic
+(https://hyphaeic.com/).
+
+This software is licensed under the Hyphaeic Public License, Version 1.0,
+which is derived from the Apache License, Version 2.0. The Hyphaeic
+Public License contains additional conditions regarding Information
+Sovereignty (Section 4) that restrict use by operators of Suppression
+Infrastructure and Surveillance Infrastructure.
+
+The Apache License, Version 2.0, on which this license is based, was
+developed by The Apache Software Foundation (https://www.apache.org/).
+This license is NOT endorsed by or affiliated with The Apache Software
+Foundation.
+
+The theoretical framework implemented in this software is based on:
+  - Ringstrom, T. & Schrater, P. (2025). "A Unified Theory of
+    Compositionality, Modularity, and Interpretability in Markov
+    Decision Processes." arXiv:2506.09499
+  - Ringstrom, T. (2023). PhD Thesis, University of Minnesota.
