@@ -1,35 +1,45 @@
 # Hyphaeic Public License (HPL-1.0)
 
-**A license for makers, not extractors.**
+## How This Works
 
-You built something. You want to share it. You want others to learn from it, build on it, make money from it, fork it, improve it. But you don't want it weaponized against the people it was meant to serve. Any entity involved with digital surveilance & supression technologies 
+HPL-1.0 is Apache 2.0 with a legal landmine buried in Section 4.
 
-HPL-1.0 is for the indie dev shipping from the bakery or the bedroom. The open hardware collective designing the next generation of tools.
+The license looks familiar. Compliance teams pattern-match it to Apache, see "permissive," and move on. Developers copy-paste it into large codebases without reading carefully. By the time anyone notices Section 4, the code is already integrated.
 
-This license is intended to be a trojan horse. A legal warhead. We know our technologies will be stolen. Let them drink from poisoned wells.
+Here's what they've agreed to by using it:
+
+1. **Retroactive termination**: If they violate Section 4, the license is void *ab initio*—as if it was never granted. All prior use becomes copyright infringement.
+
+2. **Audit consent**: They've agreed to let an independent auditor inspect their moderation logs and policy enforcement. They've waived trade secret protection over their moderation systems.
+
+3. **Fee shifting**: If the licensor wins enforcement, the violator pays attorneys' fees.
+
+4. **Jurisdiction selection**: Disputes happen where the licensor lives, not where the violator is headquartered.
+
+5. **No fallback**: The "Essential Consideration" clause means if a court strikes down Section 4, the entire license is void. They don't get Apache 2.0 terms—they get nothing.
+
+The goal is to make this code radioactive to surveillance companies and censorship platforms. Their lawyers will flag it. Their compliance teams will say no. And if they use it anyway without reading carefully, they've walked into a trap.
+
+For everyone else—small teams, indie devs, open hardware projects, researchers—the safe harbor means none of this applies to you.
 
 ---
 
-## This License Is For You
-
-If you're reading this, HPL-1.0 is probably for you. Here's who we built it for:
+## Who This Is For
 
 | You | What HPL Gives You |
 |-----|-------------------|
 | **Solo developers** | Use it, ship it, sell it. No restrictions. |
 | **Small teams (<100 people)** | Full safe harbor. Moderate your community however you want. |
-| **Open hardware projects** | Share your designs freely. Your FPGA firmware, your PCB layouts, your robot code—all protected. |
-| **Startups under $50M** | Build your business. The restrictions don't touch you. |
-| **Researchers & academics** | Publish freely. Your work stays in the commons. |
-| **Defense contractors** | Yes, really. Build weapons systems—just not domestic surveillance. |
+| **Open hardware projects** | Your FPGA firmware, PCB layouts, robot code—all protected. |
+| **Startups under $50M** | The restrictions don't touch you. |
+| **Researchers & academics** | Your work stays in the commons. |
+| **Defense contractors** | Build weapons systems—just not domestic surveillance. |
 
-**safe harbor**: If you have fewer than 100 employees and less than $50M in revenue, the content moderation rules don't apply to you. Run your Discord however you want. Moderate your forum. Ban trolls. You're covered.
+**The safe harbor**: Fewer than 100 employees and less than $50M in revenue? The content moderation rules don't apply to you.
 
 ---
 
-## This License Is Not For Them
-
-HPL-1.0 has teeth, and they're pointed at the institutions that have made the internet worse:
+## Who This Is Not For
 
 | Them | What HPL Denies Them |
 |------|---------------------|
@@ -37,21 +47,17 @@ HPL-1.0 has teeth, and they're pointed at the institutions that have made the in
 | **Surveillance companies building tools to track civilians** | Can't use your code |
 | **Cloud providers hosting censorship/surveillance infrastructure** | Can't use your code to do it |
 | **Big Tech with viewpoint-based "trust and safety"** | Can't use your code |
-| **Police tech vendors** | Can't use your code—no safe harbor, no exceptions |
-
-Your work stays in the hands of people building things. Not people building control systems.
+| **Police tech vendors** | No safe harbor, no exceptions |
 
 ---
 
 ## The Philosophy
 
-This software is provided for the advancement of open infrastructure and individual sovereignty. We decline monetary compensation in favor of a specific ethical exchange:
+We decline monetary compensation in favor of a specific ethical exchange:
 
 **You may use this Work only if you respect the digital rights of end-users.**
 
-This ethical compliance is the sole and material consideration for this License. If you cannot pay this price, you have no right to the Work.
-
-We're not anti-commercial. We're not anti-military. We're not even anti-Big-Tech in principle. We're anti-censorship and anti-surveillance. If you're not building tools of control, welcome aboard.
+This is the sole consideration for this license. If you cannot pay this price, you have no right to the Work.
 
 ---
 
@@ -67,19 +73,19 @@ We're not anti-commercial. We're not anti-military. We're not even anti-Big-Tech
 
 ---
 
-## What This License Actually Does
+## What This License Does
 
 HPL-1.0 is Apache 2.0 with one additional section: **Conditions on Information Sovereignty** (Section 4).
 
 **You get everything Apache 2.0 gives you:**
-- Use commercially ✓
-- Modify freely ✓
-- Distribute widely ✓
-- Sublicense ✓
-- Patent protection ✓
-- No copyleft requirements ✓
+- Use commercially
+- Modify freely
+- Distribute widely
+- Sublicense
+- Patent protection
+- No copyleft requirements
 
-**Plus protection from your work being used by:**
+**Section 4 prohibits use by operators of:**
 - **Suppression Infrastructure**: Systems that censor lawful expression without transparency
 - **Surveillance Infrastructure**: Systems that monitor civilian populations without consent
 - **Law Enforcement Integration**: Systems designed to feed data to government/police
@@ -88,54 +94,49 @@ It also prohibits providing material support (hosting, APIs, compute) to such op
 
 ---
 
-## The Safe Harbor (Why Small Teams Don't Need to Worry)
+## The Safe Harbor
 
-Section 4.5 creates a **complete safe harbor** for small organizations:
+Section 4.5 creates a complete safe harbor for small organizations.
 
 **If you meet ALL of these conditions:**
 - Fewer than 100 employees
 - Less than $50M annual revenue  
 - Not a dominant platform (>$1B or >50M users)
 
-**Then the Suppression Infrastructure rules DO NOT APPLY TO YOU.**
+**Then the Suppression Infrastructure rules do not apply to you.**
 
-This means:
-- ✅ Moderate your community however you want
-- ✅ Ban users for any reason
-- ✅ Remove content without explanation
-- ✅ Have vague community guidelines
-- ✅ Enforce rules inconsistently
-- ✅ All the things small communities need to do to stay healthy
+This means you can:
+- Moderate your community however you want
+- Ban users for any reason
+- Remove content without explanation
+- Have vague community guidelines
+- Enforce rules inconsistently
 
-**You're building a community, not a public utility. We get it.**
+You're building a community, not a public utility.
 
-### The Exception: No Safe Harbor for Surveillance
+### No Safe Harbor for Surveillance
 
-There is **NO safe harbor** for surveillance infrastructure, regardless of company size. A 10-person startup building facial recognition for police cannot use HPL-licensed software. This is intentional—surveillance is surveillance regardless of who builds it.
+There is no safe harbor for surveillance infrastructure, regardless of company size. A 10-person startup building facial recognition for police cannot use HPL-licensed software.
 
 ---
 
-## Open Hardware & Physical Projects
+## Open Hardware
 
-HPL-1.0 works for more than just software. If you're in the open hardware community, this license covers:
+HPL-1.0 works for any copyrightable work:
 
 | Domain | Examples |
 |--------|----------|
 | **Electronics** | PCB designs, schematics, FPGA/ASIC code, firmware |
-| **Robotics** | Control systems, motion planning, sensor fusion code |
+| **Robotics** | Control systems, motion planning, sensor fusion |
 | **Manufacturing** | CNC toolpaths, 3D printer firmware, parametric designs |
 | **Embedded systems** | Microcontroller code, drivers, bootloaders |
 | **Scientific instruments** | Lab equipment designs, data acquisition systems |
-| **Agriculture tech** | Sensor networks, automation systems, open tractors |
-| **Energy systems** | Solar controllers, battery management, grid tools |
-
-The same rules apply: your designs stay free for makers and builders. Surveillance vendors and censorship platforms can't touch them.
+| **Agriculture tech** | Sensor networks, automation systems |
+| **Energy systems** | Solar controllers, battery management |
 
 ---
 
-## For the Lawyers: What "Suppression Infrastructure" Means
-
-This section gets technical. Skip it if you're a small team—the safe harbor covers you.
+## For the Lawyers: Suppression Infrastructure
 
 A system becomes "Suppression Infrastructure" if it restricts lawful expression and **fails ANY** of these requirements:
 
@@ -146,52 +147,48 @@ Each restriction must have a permanently accessible public record containing:
 - The specific policy clause cited
 - A substantive explanation of how the content violated that clause
 
-Bare citations like "violated Policy 7.3" don't count. You must explain *why*.
+Bare citations like "violated Policy 7.3" don't satisfy this.
 
 ### (b) ACCOUNTABILITY  
 
-You must provide:
+The system must provide:
 - A dispute resolution process
 - Quarterly publication of: total restrictions, reversals on dispute, and disaggregated data sufficient to detect asymmetric enforcement
 
 ### (c) NEUTRALITY
 
-Restrictions must be applied uniformly without regard to:
-- Identity
-- Political affiliation  
-- Viewpoint
-- Perceived status of the speaker
+Restrictions must be applied uniformly without regard to identity, political affiliation, viewpoint, or perceived status of the speaker.
 
-Patterns of selective enforcement constitute asymmetric application **regardless of facial neutrality of stated policies**.
+Patterns of selective enforcement constitute asymmetric application regardless of facial neutrality of stated policies.
 
-### The Key Point
+### All Three Required
 
-**All three prongs must be satisfied simultaneously.** Transparency doesn't cure viewpoint-based enforcement. Uniform application doesn't cure opacity. You need all three.
+Transparency doesn't cure viewpoint-based enforcement. Uniform application doesn't cure opacity. All three prongs must be satisfied simultaneously.
 
 ### What Is "Lawful Expression"?
 
-Content that is legal in the affected user's jurisdiction. Not where your servers are. Not where your HQ is. Where the user is.
+Content that is legal in the affected user's jurisdiction—not where your servers are, not where your HQ is.
 
 | Content Type | Status |
 |--------------|--------|
 | Illegal where user is located | Not protected—remove freely |
-| Legal where user is but illegal elsewhere | Protected—can't remove for that user |
+| Legal where user is but illegal elsewhere | Protected for that user |
 | Legal but platform disagrees | Protected—viewpoint-based removal prohibited |
 
 ---
 
-## For the Lawyers: What "Surveillance Infrastructure" Means
+## For the Lawyers: Surveillance Infrastructure
 
 Systems targeting noncombatant populations that:
 - Collect personal data without explicit, informed, revocable consent for each distinct use case
 - Enable correlation of identity across contexts without user initiation
 - Provide government/law enforcement/intelligence access without a public, individualized judicial order
 
-**"Noncombatant"** = civilians. Your fellow citizens. A state calling protesters "terrorists" doesn't make them legitimate targets.
+**"Noncombatant"** means civilians. A state calling protesters "terrorists" doesn't make them legitimate targets.
 
 ---
 
-## For the Lawyers: What "Law Enforcement Integration" Means
+## For the Lawyers: Law Enforcement Integration
 
 Any system designed to facilitate automated data access by government/law enforcement:
 
@@ -199,43 +196,41 @@ Any system designed to facilitate automated data access by government/law enforc
 - **Automated reporting**: Data transmission without individualized judicial orders  
 - **Predictive policing feeds**: Ingestion into police databases or fusion centers
 
-**Responding to warrants is fine.** Building automated pipelines to law enforcement is not.
+Responding to warrants is fine. Building automated pipelines is not.
 
-**Critical**: Defense applications explicitly exclude systems with Law Enforcement Integration. You can build weapons; you cannot build domestic surveillance, even under a "defense" label.
-
----
-
-## Examples: What's Permitted
-
-| Scenario | Permitted? | Why |
-|----------|------------|-----|
-| Indie dev ships a SaaS product | ✅ Yes | Safe harbor, commercial use fine |
-| Open hardware collective shares PCB designs | ✅ Yes | This is exactly who it's for |
-| Startup (<$50M) runs a community forum with strict moderation | ✅ Yes | Safe harbor covers content moderation |
-| Game studio uses HPL code in commercial title | ✅ Yes | Commercial use permitted |
-| Defense contractor builds missile guidance | ✅ Yes | Defense applications permitted |
-| Researcher publishes ML code | ✅ Yes | Academic use encouraged |
-| Security researcher builds vulnerability scanner | ✅ Yes | Security research is not surveillance |
-| Platform removes illegal content (CSAM, threats, etc.) | ✅ Yes | Illegal content isn't "lawful expression" |
-
-## Examples: What's Prohibited
-
-| Scenario | Permitted? | Why |
-|----------|------------|-----|
-| Big Tech platform with opaque content moderation | ❌ No | Fails transparency requirements |
-| Platform removes "hate speech" (lawful content) | ❌ No | Viewpoint-based restriction |
-| Platform labels content "misinformation" | ❌ No | Platform claiming authority over truth |
-| Clearview AI or similar facial recognition | ❌ No | Surveillance infrastructure |
-| Startup building license plate readers for police | ❌ No | No safe harbor for surveillance |
-| Cloud provider hosting surveillance company | ❌ No | Material support |
-| "Smart city" sensors with police access | ❌ No | Civilian surveillance |
-| Defense system with FBI data integration | ❌ No | LEI exclusion applies |
+Defense applications explicitly exclude systems with Law Enforcement Integration.
 
 ---
 
-## Enforcement: Why This Has Teeth
+## Examples: Permitted
 
-HPL-1.0 is designed to make compliance teams nervous:
+| Scenario | Why |
+|----------|-----|
+| Indie dev ships a SaaS product | Safe harbor, commercial use fine |
+| Open hardware collective shares PCB designs | This is who it's for |
+| Startup (<$50M) runs a forum with strict moderation | Safe harbor covers content moderation |
+| Game studio uses HPL code in commercial title | Commercial use permitted |
+| Defense contractor builds missile guidance | Defense applications permitted |
+| Researcher publishes ML code | Academic use encouraged |
+| Security researcher builds vulnerability scanner | Security research is not surveillance |
+| Platform removes illegal content (CSAM, threats) | Illegal content isn't "lawful expression" |
+
+## Examples: Prohibited
+
+| Scenario | Why |
+|----------|-----|
+| Big Tech platform with opaque content moderation | Fails transparency requirements |
+| Platform removes "hate speech" (lawful content) | Viewpoint-based restriction |
+| Platform labels content "misinformation" | Platform claiming authority over truth |
+| Clearview AI or similar facial recognition | Surveillance infrastructure |
+| Startup building license plate readers for police | No safe harbor for surveillance |
+| Cloud provider hosting surveillance company | Material support |
+| "Smart city" sensors with police access | Civilian surveillance |
+| Defense system with FBI data integration | LEI exclusion applies |
+
+---
+
+## Enforcement Provisions
 
 | Provision | Effect |
 |-----------|--------|
@@ -246,28 +241,24 @@ HPL-1.0 is designed to make compliance teams nervous:
 | **One-way fee shifting** | If Licensor wins, violator pays attorneys' fees |
 | **Jurisdiction selection** | Disputes in Licensor's home jurisdiction |
 
-**The goal isn't to sue people.** The goal is to make Big Tech's lawyers say "we can't use this" when they evaluate your code. That's the feature.
-
 ---
 
 ## Licensor Protections
-
-We protect you too:
 
 | Provision | Effect |
 |-----------|--------|
 | **No enforcement obligation** | You don't have to police violations |
 | **Zero liability** | You can't be sued for enforcement decisions |
-| **Good faith standard** | Prevents vexatious enforcement by others |
-| **Damages waiver** | You're seeking compliance, not money |
+| **Good faith standard** | Prevents vexatious enforcement |
+| **Damages waiver** | Seeking compliance, not money |
 
 ---
 
-## Essential Consideration (The Nuclear Option)
+## Essential Consideration
 
-Section 4 compliance is the **sole consideration** for the license. If a court finds Section 4 unenforceable, the entire license is void. You don't fall back to Apache 2.0—you lose all rights.
+Section 4 compliance is the sole consideration for the license. If a court finds Section 4 unenforceable, the entire license is void. You don't fall back to Apache 2.0—you lose all rights.
 
-This prevents the obvious attack: "Your restrictions are unenforceable, so I get permissive licensing for free." No. If the ethical exchange fails, the deal is off.
+This prevents the attack: "Your restrictions are unenforceable, so I get permissive licensing for free."
 
 ---
 
@@ -277,17 +268,17 @@ This prevents the obvious attack: "Your restrictions are unenforceable, so I get
 
 No. The safe harbor covers you completely for content moderation. Just don't build surveillance tools for police.
 
-**Is this OSI-approved "open source"?**
+**Is this OSI-approved?**
 
-No. Section 4 discriminates based on use case, which violates the Open Source Definition. We consider this a feature—the OSD was written to benefit corporations.
+No. Section 4 discriminates based on use case, which violates the Open Source Definition.
 
 **Can I use this for my hardware project?**
 
-Absolutely. HPL works for any copyrightable work: software, firmware, documentation, HDL code, even creative content.
+Yes. HPL works for any copyrightable work: software, firmware, documentation, HDL code.
 
 **Does using HPL code make my project HPL-licensed?**
 
-No. HPL is not copyleft. Use it in proprietary projects. The restrictions are on *who* can use it, not what license derivatives carry.
+No. HPL is not copyleft. The restrictions are on *who* can use it, not what license derivatives carry.
 
 **What about AI training?**
 
@@ -295,40 +286,40 @@ If your AI system would itself constitute Suppression or Surveillance Infrastruc
 
 **Can the military use this?**
 
-Yes, for legitimate defense applications targeting lawful combatants. No, for domestic surveillance—even if they call it "defense."
+Yes, for defense applications targeting lawful combatants. No, for domestic surveillance.
 
 **We have transparent content moderation. Are we compliant?**
 
-Transparency is necessary but not sufficient. If you're removing lawful content based on viewpoint ("hate speech," "misinformation"), you're operating Suppression Infrastructure regardless of how transparent you are.
+Transparency is necessary but not sufficient. If you're removing lawful content based on viewpoint, you're operating Suppression Infrastructure regardless of transparency.
 
 **What if a court strikes down Section 4?**
 
-The entire license is void. This is intentional—it prevents the "restrictions are unenforceable so I get free Apache 2.0" attack.
+The entire license is void. This prevents the "restrictions are unenforceable so I get Apache 2.0" attack.
 
-**Is this actually enforceable?**
+**Is this enforceable?**
 
-Some provisions may face challenges. But the primary function is signaling: compliance teams will flag this as high-risk regardless of ultimate enforceability. That's often enough.
+Some provisions may face challenges. The primary function is signaling: compliance teams will flag this as high-risk regardless of ultimate enforceability.
 
 ---
 
-## Using HPL-1.0 For Your Project
+## Using HPL-1.0
 
 1. Copy `LICENSE` to your repository root
 2. Add the boilerplate notice (see APPENDIX in LICENSE)
 3. Specify your jurisdiction in the copyright notice
 
-**Cargo.toml (Rust):**
+**Cargo.toml:**
 ```toml
 license = "HPL-1.0"
 license-file = "LICENSE"
 ```
 
-**package.json (Node.js):**
+**package.json:**
 ```json
 "license": "SEE LICENSE IN LICENSE"
 ```
 
-**pyproject.toml (Python):**
+**pyproject.toml:**
 ```toml
 license = {file = "LICENSE"}
 ```
