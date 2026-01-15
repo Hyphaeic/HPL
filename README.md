@@ -12,9 +12,17 @@ Whether all of this actually works in court remains to be seen. What follows is 
 
 ## How This Is Designed to Work
 
-HPL-1.0 adds a new section to Apache 2.0: **Conditions on Information Sovereignty** (Section 4). This section creates binding conditions that prohibit use by operators of surveillance infrastructure, suppression infrastructure (including financial deplatforming), data brokers, and entities providing targeted support to any of the above. It is protected by a poison pill in **Essential Consideration and Indivisibility** (Section 10) such that if a judge invalidates section 4, the entire license is void _ab initio_, as if it was never issued. Then the license becomes a commercial royalty license, payable at the specific commercial license rate set by the licensor. 
+HPL-1.0 adds a new section to Apache 2.0: Conditions on Information Sovereignty (Section 4). This section creates binding conditions that prohibit use by operators of surveillance infrastructure, suppression infrastructure (including financial deplatforming), data brokers, and entities providing targeted support to any of the above.
+Two mechanisms protect the license from attack:
 
-The strategic objective is to seed the open source ecosystem with code that will inevitably get incorporated into larger codebases—code that creates latent legal exposure for entities enabling digital surveillance and suppression. When they use it without reading carefully, they've theoretically consented to terms that can be weaponized against them. Before trial, Section 4.3 allows you to invoke an independent audit of the violator's moderation systems. They've waived trade secret protection over the existence, methodology, and error rates of these systems (though not source code or model weights). The auditor can publish findings. This is the exposure mechanism—their internal suppression apparatus could become public record through the courts. This is the social benefit prong of the HPL.
+  The poison pill (Section 10): If a court finds Section 4 unenforceable, the entire license is void _ab initio_—not just the ethical restrictions, but all rights. The violator doesn't fall back to Apache 2.0 or get a commercial license.
+  They have no licence, and all prior use becomes retroactive copyright infringement.
+  
+  Commercial royalty conversion (Section 4.4.1): If Section 4 is valid but a court declines to issue an injunction, the licence converts from royalty-free to commercial. The violator owes the commercial royalty rate set by the licensor         (default $10k/month), retroactively from first violation, continuing until the code is removed.
+  
+The strategic objective is to seed the open source ecosystem with code that will inevitably get incorporated into larger codebases—code that creates latent legal exposure for entities enabling digital surveillance and suppression. When they use it without reading carefully, they've theoretically consented to terms that can be weaponised against them.
+
+The exposure mechanism (Section 4.3): Before trial, licensors can invoke an independent audit of the violator's moderation systems. Violators have waived trade secret protection over the existence, methodology, and error rates of these systems (though not source code or model weights). The auditor can publish findings. Internal suppression apparatus—what was removed, why, and whether enforcement was neutral—could become public record through the courts. This is the social benefit prong of the HPL.
 
 
 ### For Licensors: Intended Protections
