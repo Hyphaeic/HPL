@@ -1,361 +1,869 @@
-Hyphaeic Public License
-Version 1.0, January 2026
+# Hyphaeic Public License
+
+**Version 1.0, January 2026**
+
 https://github.com/hyphaeic/hpl
 
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+---
 
-This license is derived from the Apache License, Version 2.0, with
-additional conditions set forth in Section 4. This is NOT an Apache
-Software Foundation license.
+## TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-PREAMBLE: THE NATURE OF THIS AGREEMENT This software is provided strictly for the advancement of open infrastructure and individual sovereignty. The Licensor declines monetary compensation in favor of a specific ethical exchange: You may use this Work only if You respect the digital rights of end-users. This ethical compliance is the sole and material consideration for this License. If You cannot pay this price, You have no right to the Work.
+This license is derived from the Apache License, Version 2.0, with additional conditions set forth in Section 4. This is NOT an Apache Software Foundation license.
 
-1. Definitions.
+---
 
-"License" shall mean the terms and conditions for use, reproduction,
-and distribution as defined by Sections 1 through 5 of this document.
+## PREAMBLE: THE NATURE OF THIS AGREEMENT
 
-"Licensor" shall mean the copyright owner or entity authorized by the
-copyright owner that is granting the License.
+This software is provided strictly for the advancement of open infrastructure and individual sovereignty. The Licensor declines monetary compensation in favor of a specific ethical exchange: You may use this Work only if You respect the digital rights of end-users.
 
-"Legal Entity" shall mean the union of the acting entity and all other
-entities that control, are controlled by, or are under common control
-with that entity. For the purposes of this definition, "control" means
-(i) the power, direct or indirect, to cause the direction or management
-of such entity, whether by contract or otherwise, or (ii) ownership of
-fifty percent (50%) or more of the outstanding shares, or (iii)
-beneficial ownership of such entity.
+This ethical compliance—Your agreement to refrain from operating or supporting censorship and surveillance systems—is the sole and material consideration for this License. If You cannot pay this price, You have no right to the Work.
 
-"You" (or "Your") shall mean an individual or Legal Entity exercising
-permissions granted by this License.
+By exercising any rights granted under this License, You acknowledge that You have read, understood, and agreed to be bound by these terms, including the conditions set forth in Section 4.
 
-"Source" form shall mean the preferred form for making modifications,
-including but not limited to software source code, documentation source,
-and configuration files.
+---
 
-"Object" form shall mean any form resulting from mechanical
-transformation or translation of a Source form, including but not
-limited to compiled object code, generated documentation, and
-conversions to other media types.
+## 1. Definitions.
 
-"Work" shall mean the work of authorship, whether in Source or Object
-form, made available under the License, as indicated by a copyright
-notice that is included in or attached to the work.
+**"License"** shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 12 of this document.
 
-"Derivative Works" shall mean any work, whether in Source or Object
-form, that is based on (or derived from) the Work and for which the
-editorial revisions, annotations, elaborations, or other modifications
-represent, as a whole, an original work of authorship. For the purposes
-of this License, Derivative Works shall not include works that remain
-separable from, or merely link (or bind by name) to the interfaces of,
-the Work and Derivative Works thereof.
+**"Licensor"** shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
 
-"Contribution" shall mean any work of authorship, including the original
-version of the Work and any modifications or additions to that Work or
-Derivative Works thereof, that is intentionally submitted to the
-Licensor for inclusion in the Work by the copyright owner or by an
-individual or Legal Entity authorized to submit on behalf of the
-copyright owner. For the purposes of this definition, "submitted" means
-any form of electronic, verbal, or written communication sent to the
-Licensor or its representatives, including but not limited to
-communication on electronic mailing lists, source code control systems,
-and issue tracking systems that are managed by, or on behalf of, the
-Licensor for the purpose of discussing and improving the Work, but
-excluding communication that is conspicuously marked or otherwise
-designated in writing by the copyright owner as "Not a Contribution."
+**"Licensor's Jurisdiction"** shall mean the legal jurisdiction specified in the NOTICE file accompanying the Work. Where no jurisdiction is specified, the default shall be the State of Washington, United States.
 
-"Contributor" shall mean Licensor and any individual or Legal Entity on
-behalf of whom a Contribution has been received by Licensor and
-subsequently incorporated within the Work.
+**"Legal Entity"** shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
 
-"Suppression Infrastructure" shall mean any system that restricts 
-the transmission, display, or discoverability of lawful expression 
-where such restriction fails ANY of the following requirements:
+**"You"** (or **"Your"**) shall mean an individual or Legal Entity exercising permissions granted by this License.
 
-  (a) TRANSPARENCY: Each restriction must be accompanied by a 
-      permanently accessible public record containing:
-        (i) a cryptographic hash of the restricted content;
-        (ii) the specific policy clause cited as justification; and
-        (iii) a substantive explanation of how the specific content 
-              violated that clause, sufficient for a reasonable 
-              observer to independently evaluate the decision.
-      A bare citation to a policy clause without substantive 
-      explanation (e.g., "violated Policy 7.3") does not satisfy 
-      this requirement.
+**"Source"** form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
 
-  (b) ACCOUNTABILITY: The system must provide a dispute resolution 
-      process and publish no less than quarterly:
-        (i) the total number of restrictions applied;
-        (ii) the number of restrictions reversed on dispute; and
-        (iii) disaggregated data sufficient to detect asymmetric 
-              enforcement patterns across viewpoints or speaker 
-              categories.
+**"Object"** form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
 
-  (c) NEUTRALITY: Restrictions must be applied uniformly without 
-      regard to the identity, political affiliation, viewpoint, 
-      or perceived status of the speaker. Identical or substantially 
-      similar content must receive identical treatment regardless 
-      of source. Patterns of selective enforcement against 
-      disfavored viewpoints constitute asymmetric application 
-      regardless of facial neutrality of stated policies.
+**"Work"** shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work.
 
-For the avoidance of doubt: Restrictions on content that is unlawful 
-in the affected user's jurisdiction do not implicate this definition, 
-as such content is not "lawful expression." Restrictions based on 
-categories such as "hate speech," "misinformation," or "harmful 
-content" that extend beyond jurisdictionally illegal content 
-constitute viewpoint-based restrictions subject to this definition.
+**"Derivative Works"** shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
 
-"Surveillance Infrastructure" shall mean any system that targets
-noncombatant populations and:
-  (a) aggregates behavioral, biometric, or communications data on
-      individuals without their explicit, informed, revocable consent
-      for each distinct use case; or
-  (b) enables the correlation of identity across contexts without user
-      initiation; or
-  (c) provides any government, law enforcement, or intelligence entity
-      access to user data absent a public, individualized judicial
-      order.
+**"Contribution"** shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to the Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
 
-"Noncombatant" shall mean any individual not actively engaged in armed
-conflict as a member of an organized armed force, consistent with the
-principle of distinction under international humanitarian law. Civilian
-populations, including citizens subject to domestic law enforcement,
-are noncombatants. A state's unilateral classification of its own
-civilian population as combatants does not alter their status as
-noncombatants under this License.
+**"Contributor"** shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
 
-"Law Enforcement Integration" shall mean any feature, API, data pipeline, or contractual arrangement designed to facilitate the automated export, mirroring, or real-time access of data to any system controlled by, or accessible to, a government entity, law enforcement agency, or intelligence service, whether domestic or foreign. This includes: 
-  (a) "Backdoor" access keys or administrative privileges provided to state actors; 
-  (b) Automated reporting tools that transmit user data absent a public, individualized judicial order; or 
+**"Lawful Expression"** shall mean expression that is not prohibited by the criminal laws of the jurisdiction in which the author of the expression is physically located.
+
+For the purposes of this License, the following categories are NEVER Lawful Expression, regardless of jurisdiction:
+
+  (a) Sexual abuse material concerning minors (CSAM);
+
+  (b) "True Threats," defined as statements where the speaker means to communicate a serious expression of an intent to commit an act of unlawful violence to a particular individual or group of individuals, consistent with *Virginia v. Black*, 538 U.S. 343 (2003);
+
+  (c) Direct incitement to imminent lawless action, where such speech is directed to inciting or producing imminent lawless action and is likely to incite or produce such action, consistent with *Brandenburg v. Ohio*, 395 U.S. 444 (1969).
+
+**Note:** Subjective offense, "feeling unsafe" absent a specific threat of violence, criticism of public figures, or advocacy of ideas that others find objectionable does not constitute a True Threat or incitement.
+
+For the avoidance of doubt: Platforms may rely on reasonable indicators of user location (including but not limited to account registration information, IP geolocation, and user-provided location data) and are not required to independently verify physical location. A platform acting in good faith on reasonable location indicators does not operate Suppression Infrastructure solely because a user misrepresented their location.
+
+**"Viewpoint-Based Restriction"** shall mean any content moderation action that:
+
+  (a) explicitly targets speech taking a particular position on a matter of public debate; or
+
+  (b) explicitly targets speech concerning a particular topic, where the restriction serves to advantage one side of a contested factual or political question; or
+
+  (c) is applied asymmetrically based on the speaker's perceived political affiliation, social identity, or ideological alignment; or
+
+  (d) uses facially neutral criteria (such as "misinformation," "hate speech," or "harmful content") in a manner that demonstrably produces disparate outcomes across viewpoints.
+
+For the avoidance of doubt, the following are NOT Viewpoint-Based Restrictions:
+
+  (i) restrictions on content that constitutes criminal conduct in the user's jurisdiction;
+
+  (ii) restrictions on format, length, or technical characteristics of content that apply uniformly regardless of message;
+
+  (iii) restrictions on automated, coordinated, or inauthentic behavior (spam) that apply regardless of viewpoint expressed;
+
+  (iv) restrictions based on intellectual property claims from third parties pursuant to legal process.
+
+**"Suppression Infrastructure"** shall mean any system that restricts the transmission, display, discoverability, or economic participation associated with Lawful Expression where such restriction fails ANY of the following requirements:
+
+  (a) **TRANSPARENCY:** Each restriction must be accompanied by a permanently accessible public record containing:
+
+  (i) a cryptographic hash of the restricted content;
+
+  (ii) the specific policy clause cited as justification; and
+
+  (iii) a substantive explanation of how the specific content violated that clause, sufficient for a reasonable observer to independently evaluate the decision.
+
+  A bare citation to a policy clause without substantive explanation (e.g., "violated Policy 7.3") does not satisfy this requirement.
+
+  (b) **ACCOUNTABILITY:** The system must provide a dispute resolution process and publish no less than quarterly:
+
+  (i) the total number of restrictions applied;
+
+  (ii) the number of restrictions reversed on dispute; and
+
+  (iii) disaggregated data sufficient to detect asymmetric enforcement patterns across viewpoints or speaker categories.
+
+  (c) **NEUTRALITY:** Restrictions must be applied uniformly without regard to the identity, political affiliation, viewpoint, or perceived status of the speaker. Identical or substantially similar content must receive identical treatment regardless of source. Patterns of selective enforcement against disfavored viewpoints constitute Viewpoint-Based Restrictions regardless of facial neutrality of stated policies.
+
+**"Economic Participation"** includes but is not limited to: access to payment processing, banking services, crowdfunding platforms, advertising revenue, monetization features, or financial services where denial is based on the content of Lawful Expression rather than neutral financial risk criteria applied uniformly. For the avoidance of doubt: denial of financial services based on viewpoint, political affiliation, or the lawful content of expression constitutes Suppression Infrastructure; denial based on documented financial risk factors (credit history, fraud indicators, chargeback rates) applied uniformly does not.
+
+**"Surveillance Infrastructure"** shall mean any system that targets noncombatant populations and:
+
+  (a) aggregates behavioral, biometric, or communications data on individuals without their explicit, informed, revocable consent for each distinct use case; or
+
+  (b) enables the correlation of identity across contexts without user initiation; or
+
+  (c) provides any government, law enforcement, or intelligence entity access to user data absent a public, individualized judicial order.
+
+**"Noncombatant"** shall mean any individual not actively engaged in armed conflict as a member of an organized armed force, consistent with the principle of distinction under international humanitarian law. Civilian populations, including citizens subject to domestic law enforcement, are noncombatants. A state's unilateral classification of its own civilian population as combatants does not alter their status as noncombatants under this License.
+
+**"Data Brokerage"** shall mean the commercial sale, licensing, or exchange of personally identifiable information, behavioral profiles, or biometric data to third parties, where such data was not provided by the data subject directly to the purchasing party for a specific, disclosed purpose. For the avoidance of doubt: anonymized aggregate analytics that cannot be re-identified to individuals do not constitute Data Brokerage; sale of data that can be linked to identified or identifiable natural persons does.
+
+**"Targeted Support"** shall mean services, resources, or integration that are:
+
+  (a) specifically designed, customized, or configured to enable the recipient's operation of Suppression Infrastructure or Surveillance Infrastructure; or
+
+  (b) provided with actual knowledge that the services will be used primarily to operate such infrastructure; or
+
+  (c) marketed or sold specifically for use in content moderation, surveillance, or law enforcement applications.
+
+For the avoidance of doubt, the following do NOT constitute Targeted Support absent circumstances meeting (a), (b), or (c) above:
+
+  (i) generally available commercial services offered to the public on substantially similar terms, where the provider does not customize, configure, or market specifically for suppression or surveillance use cases;
+
+  (ii) legal, accounting, or professional advisory services;
+
+  (iii) employment or contractor relationships with individuals who also work for potentially violating entities.
+
+**"Law Enforcement Integration"** shall mean any feature, API, data pipeline, or contractual arrangement designed to facilitate the automated export, mirroring, or real-time access of data to any system controlled by, or accessible to, a government entity, law enforcement agency, or intelligence service, whether domestic or foreign. This includes:
+
+  (a) "Backdoor" access keys or administrative privileges provided to state actors;
+
+  (b) Automated reporting tools that transmit user data absent a public, individualized judicial order; or
+
   (c) Ingestion of data into predictive policing databases or fusion centers.
 
-"Dominant Position" shall mean any Legal Entity that, together with entities under common control: (a) generates annual gross revenue exceeding one billion United States dollars ($1,000,000,000 USD) from communications, social networking, search, or information distribution services; or (b) operates a platform serving more than fifty million (50,000,000) monthly active users.
+**"Dominant Position"** shall mean any Legal Entity that, together with entities under common control:
 
-2. Grant of Copyright License.
+  (a) generates annual gross revenue exceeding one billion United States dollars ($1,000,000,000 USD) from communications, social networking, search, or information distribution services; or
 
-Subject to the terms and conditions of this License, each Contributor
-hereby grants to You a perpetual, worldwide, non-exclusive, no-charge,
-royalty-free, irrevocable copyright license to reproduce, prepare
-Derivative Works of, publicly display, publicly perform, sublicense,
-and distribute the Work and such Derivative Works in Source or Object
-form.
+  (b) operates a platform serving more than fifty million (50,000,000) monthly active users.
 
-3. Grant of Patent License.
+**"Prima Facie Showing"** shall mean credible evidence sufficient to support a reasonable belief of violation, including but not limited to:
 
-Subject to the terms and conditions of this License, each Contributor
-hereby grants to You a perpetual, worldwide, non-exclusive, no-charge,
-royalty-free, irrevocable (except as stated in this section) patent
-license to make, have made, use, offer to sell, sell, import, and
-otherwise transfer the Work, where such license applies only to those
-patent claims licensable by such Contributor that are necessarily
-infringed by their Contribution(s) alone or by combination of their
-Contribution(s) with the Work to which such Contribution(s) was
-submitted. If You institute patent litigation against any entity
-(including a cross-claim or counterclaim in a lawsuit) alleging that
-the Work or a Contribution incorporated within the Work constitutes
-direct or contributory patent infringement, then any patent licenses
-granted to You under this License for that Work shall terminate as of
-the date such litigation is filed.
+  (a) statistical analysis demonstrating disparate enforcement patterns across viewpoints;
 
-4. Conditions on Information Sovereignty.
+  (b) internal documents revealing viewpoint-based targeting;
 
-4.1 Prohibited Uses.
+  (c) documented pattern of complaints from diverse speakers alleging asymmetric treatment;
+
+  (d) public statements, policies, or marketing materials indicating prohibited conduct; or
+
+  (e) other credible evidence of systematic non-compliance.
+
+**"Commercial Royalty Amount"** shall mean the monthly royalty specified in the NOTICE file accompanying the Work. Where no amount is specified, the default shall be ten thousand United States dollars ($10,000 USD) per calendar month.
+
+---
+
+## 2. Grant of Copyright License.
+
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+
+---
+
+## 3. Grant of Patent License.
+
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+
+---
+
+## 4. Conditions on Information Sovereignty.
+
+### 4.1 Prohibited Uses.
 
 This License does not grant rights to any Legal Entity that:
+
   (a) operates Suppression Infrastructure; or
+
   (b) operates Surveillance Infrastructure; or
-  (c) provides material support, including but not limited to compute
-      resources, API access, training data, hosting services, or
-      integration services, to entities operating Suppression
-      Infrastructure or Surveillance Infrastructure; or
-  (d) holds a Dominant Position and implements any content restriction
-      policy that is not:
-        (i) strictly limited to content illegal in the jurisdiction of
-            the affected user, and
-        (ii) applied uniformly without regard to viewpoint.
 
-4.2 Automatic Termination.
+  (c) provides Targeted Support to entities operating Suppression Infrastructure or Surveillance Infrastructure; or
 
-Violation of Section 4.1 terminates this License automatically and
-retroactively ab initio. Upon such termination:
+  (d) holds a Dominant Position and implements any content restriction policy that is not:
+
+  (i) strictly limited to content illegal in the jurisdiction of the affected user, and
+
+  (ii) applied uniformly without Viewpoint-Based Restrictions.
+
+### 4.2 Automatic Termination.
+
+Violation of Section 4.1 terminates this License automatically and retroactively ab initio. Upon such termination:
+
   (a) all rights granted hereunder are void as if never granted;
-  (b) You shall immediately cease all use, distribution, and
-      development of Derivative Works;
-  (c) You acknowledge that monetary damages are inadequate remedy 
-      and consent to injunctive relief without bond in any court 
-      of competent jurisdiction.
 
-While Licensor waives claims for compensatory damages, in the event of any legal proceeding arising from a violation of this Section 4 where Licensor is the prevailing party, You agree to pay all reasonable attorneys' fees and costs incurred by Licensor in connection with such proceeding.
+  (b) You shall immediately cease all use, distribution, and development of Derivative Works;
 
-4.3 Verification of Compliance.
+  (c) You acknowledge that monetary damages are inadequate remedy and consent to injunctive relief without bond in any court of competent jurisdiction.
 
-To ensure compliance with Section 4, You consent to reasonable 
-verification measures upon a credible public allegation of violation.
+### 4.3 Verification of Compliance.
 
-Upon a prima facie showing of a Section 4 violation, You agree to:
-  (a) Permit review by an independent technical auditor, selected 
-      jointly by the parties, of relevant moderation logs and 
-      policy enforcement records;
-  (b) Waive any claim of trade secret regarding the existence or 
-      error rates of moderation systems (but not source code);
-  (c) Permit the auditor to publish a compliance determination.
+#### 4.3.1 Audit Trigger.
 
-Each party shall bear its own costs for verification activities, 
-regardless of outcome. The auditor's fees shall be split equally 
-unless the parties agree otherwise.
+Upon a Prima Facie Showing of a Section 4 violation, Licensor may invoke the verification procedure set forth in this Section by providing written notice to You.
 
-Refusal to cooperate with reasonable verification within sixty (60) 
-days of a prima facie showing constitutes grounds for Licensor to 
-seek injunctive relief and creates a rebuttable presumption of 
-non-compliance.
+#### 4.3.2 Auditor Selection.
 
-4.4 Remedy and Specific Performance. You acknowledge that a breach of Section 4 causes irreparable harm to the Licensor’s moral rights and the integrity of the ecosystem, which cannot be compensated by monetary damages. Accordingly, in the event of any breach or threatened breach of Section 4, You agree that Licensor shall be entitled to Specific Performance and Injunctive Relief to compel compliance with Section 4.3 (Discovery and Audit) and to halt use of the Work, without the requirement of posting a bond. Licensor explicitly waives the right to seek monetary damages for breach of Section 4, electing solely for the remedies of transparency, termination, and public disclosure.
+Within thirty (30) days of Licensor's written invocation of this Section, the parties shall jointly select an independent technical auditor. If the parties cannot agree within thirty (30) days, Licensor may:
 
-Licensor shall not be liable for any costs, fees, or damages arising from good-faith enforcement of this License, regardless of outcome
-4.5 Safe Harbor.
+  (a) select an auditor from among firms pre-approved in the NOTICE file; or
 
-Section 4.1(a), Section 4.1(c) as applied to Suppression Infrastructure,
-and Section 4.1(d) do not apply to Legal Entities that satisfy ALL of
-the following conditions:
-  (a) employ fewer than one hundred (100) individuals; and
-  (b) generate less than fifty million United States dollars
-      ($50,000,000 USD) in annual gross revenue; and
-  (c) do not hold a Dominant Position.
+  (b) petition a court of competent jurisdiction in the Licensor's Jurisdiction to appoint a qualified auditor; or
 
-Section 4.1(b) and Section 4.1(c) as applied to Surveillance
-Infrastructure have NO safe harbor and apply regardless of entity size,
-revenue, or market position.
+  (c) select any auditor with relevant professional credentials (including but not limited to ISO 27001 lead auditor certification, CIPP/US certification, relevant human rights advocacy experience, or equivalent) who has no prior business relationship with either party within the preceding three (3) years.
 
-4.6 Permitted Defense Applications.
+#### 4.3.3 Scope of Audit.
+
+You consent to provide the auditor with:
+
+  (a) relevant content moderation logs and policy enforcement records for the period in question;
+
+  (b) documentation of moderation policies and their implementation;
+
+  (c) aggregate statistics on enforcement actions by category;
+
+  (d) records of financial service denials and stated justifications, where applicable.
+
+You waive any claim of trade secret regarding the existence, methodology, or error rates of moderation and financial restriction systems, but not regarding source code, model weights, or proprietary algorithms.
+
+#### 4.3.4 Audit Timeline.
+
+The audit shall be completed within sixty (60) days of auditor selection. The auditor shall provide a written compliance determination to both parties and may publish a summary of findings.
+
+#### 4.3.5 Costs.
+
+Each party shall bear its own costs for verification activities. The auditor's fees shall be split equally unless:
+
+  (a) the audit finds substantial non-compliance, in which case the audited Legal Entity ("You") shall bear all auditor fees; or
+
+  (b) the audit finds substantial compliance and that Licensor's invocation was not supported by reasonable evidence, in which case Licensor shall bear all auditor fees.
+
+#### 4.3.6 Failure to Cooperate.
+
+Refusal to cooperate with verification within the timelines specified herein, or obstruction of the audit process, shall:
+
+  (a) create a rebuttable presumption of non-compliance;
+
+  (b) constitute grounds for Licensor to seek immediate injunctive relief; and
+
+  (c) result in automatic License termination if cooperation is not restored within thirty (30) days of written notice from Licensor.
+
+### 4.4 Remedy and Specific Performance.
+
+You acknowledge that a breach of Section 4 causes irreparable harm to the Licensor's moral rights and the integrity of the open source ecosystem, which cannot be adequately compensated by monetary damages. Accordingly, in the event of any breach or threatened breach of Section 4, You agree that Licensor shall be entitled to specific performance and injunctive relief to compel compliance with Section 4.3 and to halt use of the Work, without the requirement of posting a bond.
+
+Licensor explicitly waives the right to seek compensatory or statutory monetary damages for breach of Section 4, electing solely for the remedies of transparency, termination, and public disclosure, except as provided in Section 4.4.1.
+
+Licensor shall not be liable for any costs, fees, or damages arising from good-faith enforcement of this License, regardless of outcome.
+
+#### 4.4.1 Conversion to Commercial Royalty.
+
+The parties acknowledge that the royalty-free nature of this License is contingent upon strict adherence to the ethical conditions in Section 4.
+
+In the event that a court of competent jurisdiction declines to issue injunctive relief to halt a violation of Section 4, the parties agree that the License shall be converted into a standard commercial license. The parties hereby stipulate that the reasonable commercial value of this Work, absent the ethical consideration, is the Commercial Royalty Amount specified in the NOTICE file (default: ten thousand United States dollars ($10,000 USD) per calendar month).
+
+You agree to pay this amount as a retroactive royalty for every month of non-compliant use, beginning from the date of the initial violation. The parties agree this amount reflects the specialized nature of the Work and is not a penalty.
+
+This Section 4.4.1 applies only where injunctive relief has been sought and denied. Licensor's primary remedy remains injunctive relief, and Licensor shall seek such relief before invoking this section.
+
+#### 4.4.2 Fee Shifting.
+
+In the event of any legal proceeding arising from a violation of Section 4 where Licensor is the prevailing party, You agree to pay all reasonable attorneys' fees and costs incurred by Licensor in connection with such proceeding.
+
+### 4.5 Safe Harbor for Incidental Moderation.
+
+#### 4.5.1 Scope and Exclusions (Material Business Activity).
+
+This Section 4.5 provides a safe harbor ONLY for incidental content moderation of a Legal Entity's own platforms, communities, or communication channels.
+
+This Section 4.5 provides NO safe harbor for any Legal Entity where ANY of the following apply:
+
+  (a) **Revenue Test:** Development, licensing, or operation of surveillance, Data Brokerage, or suppression tools generates more than ten percent (10%) of the Entity's annual gross revenue; or
+
+  (b) **Marketing Test:** The Entity actively markets surveillance, law enforcement intelligence, government intelligence, or content suppression capabilities as a core feature of its products or services; or
+
+  (c) **Integration Test:** The Entity's products are designed to integrate with Law Enforcement Integration or Suppression Infrastructure as a non-optional or standard feature.
+
+Any Legal Entity meeting criteria (a), (b), or (c) above is deemed to be engaged in **Material Business Activity** related to the prohibited uses and receives NO safe harbor regardless of entity size, revenue, or market position.
+
+#### 4.5.2 Tier 0: Individuals and Micro-Entities.
+
+Legal Entities satisfying ALL of the following conditions:
+
+  (a) employ five (5) or fewer individuals;
+
+  (b) generate less than one million United States dollars ($1,000,000 USD) in annual gross revenue; and
+
+  (c) do not engage in any Material Business Activity described in Section 4.5.1
+
+are exempt from Section 4.1(a) and Section 4.1(d) with respect to incidental moderation of their own platforms.
+
+#### 4.5.3 Tier 1: Small Organizations.
+
+Legal Entities satisfying ALL of the following conditions:
+
+  (a) employ fewer than one hundred (100) individuals;
+
+  (b) generate less than fifty million United States dollars ($50,000,000 USD) in annual gross revenue;
+
+  (c) do not hold a Dominant Position; and
+
+  (d) do not engage in any Material Business Activity described in Section 4.5.1
+
+are exempt from Section 4.1(a), Section 4.1(c) as applied to Suppression Infrastructure, and Section 4.1(d) with respect to incidental moderation of their own platforms.
+
+#### 4.5.4 Tier 2: Medium Organizations.
+
+Legal Entities satisfying ALL of the following conditions:
+
+  (a) employ fewer than five hundred (500) individuals;
+
+  (b) generate less than two hundred fifty million United States dollars ($250,000,000 USD) in annual gross revenue;
+
+  (c) do not hold a Dominant Position; and
+
+  (d) do not engage in any Material Business Activity described in Section 4.5.1
+
+are subject to modified compliance requirements:
+
+  (i) must publish annual transparency report on content restrictions applied to their own platforms;
+
+  (ii) must provide appeals process for moderation decisions;
+
+  (iii) are NOT subject to full neutrality audit requirements unless a Prima Facie Showing is established.
+
+#### 4.5.5 Tier Transitions.
+
+Upon crossing a tier threshold, a Legal Entity shall have twelve (12) months to achieve compliance with the requirements of the new tier. During the transition period, the entity remains subject to the requirements of its previous tier. Failure to achieve compliance within twelve (12) months results in automatic License termination.
+
+Threshold calculations shall be based on the trailing twelve-month average of employees and revenue as of the most recent fiscal year end.
+
+#### 4.5.6 No Safe Harbor for Surveillance.
+
+For absolute clarity: Section 4.1(b) (Surveillance Infrastructure) has NO safe harbor and applies to ALL Legal Entities regardless of size, revenue, market position, or any other factor. There are no exceptions. A solo developer building surveillance tools is subject to the same requirements as a multinational corporation.
+
+### 4.6 Permitted Defense Applications.
 
 Nothing in Section 4 shall be construed to prohibit use of the Work in:
-  (a) defense systems, weapons platforms, or military applications
-      targeting lawful combatants under international humanitarian law;
-  (b) intelligence, reconnaissance, or surveillance systems directed at
-      foreign military forces, hostile non-state armed groups, or
-      individuals lawfully designated as combatants;
-  (c) autonomous systems, including unmanned vehicles and weapons
-      systems, where targeting is limited to lawful military objectives.
 
-The permissions in this Section 4.6 EXPLICITLY EXCLUDE any system incorporating Law Enforcement Integration. For the avoidance of doubt: Individual self-defense is permitted; state-sponsored mass surveillance via Law Enforcement Integration is prohibited.
+  (a) defense systems, weapons platforms, or military applications targeting lawful combatants under international humanitarian law;
 
-5. Submission of Contributions.
+  (b) intelligence, reconnaissance, or surveillance systems directed at foreign military forces, hostile non-state armed groups, or individuals lawfully designated as combatants;
 
-Unless You explicitly state otherwise, any Contribution intentionally
-submitted for inclusion in the Work by You to the Licensor shall be
-under the terms and conditions of this License, without any additional
-terms or conditions. Notwithstanding the above, nothing herein shall
-supersede or modify the terms of any separate license agreement you may
-have executed with Licensor regarding such Contributions.
+  (c) autonomous systems, including unmanned vehicles and weapons systems, where targeting is limited to lawful military objectives.
 
-6. Trademarks.
+The permissions in this Section 4.6 EXPLICITLY EXCLUDE any system incorporating Law Enforcement Integration. Individual self-defense is permitted; state-sponsored mass surveillance of noncombatant populations via Law Enforcement Integration is prohibited.
 
-This License does not grant permission to use the trade names,
-trademarks, service marks, or product names of the Licensor, except as
-required for reasonable and customary use in describing the origin of
-the Work and reproducing the content of the NOTICE file.
+### 4.7 Affirmative Obligations.
 
-7. Disclaimer of Warranty.
+Any Legal Entity exercising rights under this License shall, upon first commercial deployment of the Work or Derivative Works:
 
-Unless required by applicable law or agreed to in writing, Licensor
-provides the Work (and each Contributor provides its Contributions) on
-an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
-express or implied, including, without limitation, any warranties or
-conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR
-A PARTICULAR PURPOSE. You are solely responsible for determining the
-appropriateness of using or redistributing the Work and assume any
-risks associated with Your exercise of permissions under this License.
+  (a) publish a dated statement acknowledging the terms of this License at a publicly accessible URL; and
 
-8. Limitation of Liability.
+  (b) provide notice of such publication to the Licensor at the address specified in the NOTICE file within thirty (30) days of deployment.
 
-In no event and under no legal theory, whether in tort (including
-negligence), contract, or otherwise, unless required by applicable law
-(such as deliberate and grossly negligent acts) or agreed to in writing,
-shall any Contributor be liable to You for damages, including any
-direct, indirect, special, incidental, or consequential damages of any
-character arising as a result of this License or out of the use or
-inability to use the Work (including but not limited to damages for
-loss of goodwill, work stoppage, computer failure or malfunction, or
-any and all other commercial damages or losses), even if such
-Contributor has been advised of the possibility of such damages.
+Failure to comply with this Section 4.7 does not automatically terminate this License but may be considered evidence of bad faith in any enforcement proceeding.
 
-9. Accepting Warranty or Additional Liability.
+### 4.8 Enforcement Coordination.
 
-While redistributing the Work or Derivative Works thereof, You may
-choose to offer, and charge a fee for, acceptance of support, warranty,
-indemnity, or other liability obligations and/or rights consistent with
-this License. However, in accepting such obligations, You may act only
-on Your own behalf and on Your sole responsibility, not on behalf of
-any other Contributor, and only if You agree to indemnify, defend, and
-hold each Contributor harmless for any liability incurred by, or claims
-asserted against, such Contributor by reason of your accepting any such
-warranty or additional liability.
+#### 4.8.1 Registry.
 
-10. Essential Consideration and Indivisibility.
+Licensor may register HPL-licensed Works with a public registry maintained for the purpose of facilitating coordination among Licensors. Such registration is optional and does not affect the validity or enforceability of this License.
 
-You acknowledge that Your agreement to the restrictions in Section 4 
-constitutes the sole and material consideration for this License.
+#### 4.8.2 Assignment of Enforcement Rights.
 
-If Section 4 or any material portion thereof is held unenforceable, 
-invalid, or unconscionable by a court of competent jurisdiction:
-  (a) This License is void in its entirety due to failure of 
-      consideration;
+Licensor may assign enforcement rights under this License to any third party, including but not limited to legal defense organizations, digital rights advocates, or enforcement collectives, without transferring underlying copyright ownership. Such assignment shall be recorded in writing and may be registered with any public registry established under Section 4.8.1.
+
+#### 4.8.3 Collective Action.
+
+Multiple Licensors whose Works are incorporated into a single product or service may coordinate enforcement actions and share evidence, costs, and resources. Nothing in this License shall be construed to prevent such coordination.
+
+---
+
+## 5. Submission of Contributions.
+
+Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+
+---
+
+## 6. Trademarks.
+
+This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+
+---
+
+## 7. Disclaimer of Warranty.
+
+Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+
+---
+
+## 8. Limitation of Liability.
+
+In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+
+---
+
+## 9. Accepting Warranty or Additional Liability.
+
+While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+
+---
+
+## 10. Essential Consideration and Indivisibility.
+
+You acknowledge that Your agreement to the restrictions in Section 4 constitutes the sole and material consideration for this License. The Licensor has granted You rights to the Work in exchange for Your commitment to respect the digital sovereignty of end-users as set forth herein.
+
+If Section 4 or any material portion thereof is held unenforceable, invalid, or unconscionable by a court of competent jurisdiction:
+
+  (a) This License is void in its entirety due to failure of consideration;
+
   (b) All rights previously granted terminate immediately;
+
   (c) Continued use of the Work constitutes copyright infringement.
 
-Consistent with Section 12.4, Licensor waives the right to seek 
-statutory or compensatory damages arising from post-termination use. 
-Licensor's sole remedy is injunctive relief to halt unauthorized use.
+Consistent with Section 4.4, Licensor waives the right to seek statutory or compensatory damages arising from post-termination use, except as expressly provided in Section 4.4.1 (Conversion to Commercial Royalty) and Section 4.4.2 (Fee Shifting). Licensor's primary remedies are injunctive relief to halt unauthorized use, commercial royalty conversion, and recovery of attorneys' fees and costs.
 
-11. Governing Law and Dispute Resolution.
+---
 
-11.1 Choice of Law. This License shall be governed by the laws of the jurisdiction in which the Licensor resides or conducts its primary business ("Licensor's Jurisdiction"), excluding its conflict-of-law provisions.
+## 11. Governing Law and Dispute Resolution.
 
-11.2 Venue. Any dispute arising from this License shall be adjudicated in the courts located within [ INSERT JURISDICTION HERE, e.g., King County, Washington ]. If no jurisdiction is specified in the Copyright Notice or attached NOTICE file, venue shall default to the federal or state courts located in the district where the Licensor resides.
+### 11.1 Choice of Law.
 
-11.3 Interpretation of Purpose. The Court is instructed to interpret this License with the understanding that the Licensor’s primary intent is the prevention of censorship and surveillance, not commercial gain. Ambiguities should be resolved in favor of preserving the integrity of the Information Sovereignty conditions set forth in Section 4.
+This License shall be governed by the laws of the Licensor's Jurisdiction, excluding its conflict-of-law provisions.
 
-12. Licensor Liability and Enforcement.
+### 11.2 Venue.
 
-12.1 No Enforcement Obligation. Licensor is under no obligation to 
-monitor for, investigate, or enforce violations of this License. 
-Failure to enforce against any violation shall not constitute waiver 
-of the right to enforce against the same or other violations.
+Any dispute arising from this License shall be adjudicated in the courts located within the Licensor's Jurisdiction as specified in the NOTICE file. If no jurisdiction is specified, venue shall default to the federal or state courts located in the State of Washington, United States.
 
-12.2 Licensor Liability Cap. Licensor shall not be liable to any 
-party for any costs, fees, damages, or expenses arising from:
+### 11.3 Interpretation of Purpose.
+
+The Court is instructed to interpret this License with the understanding that the Licensor's primary intent is the prevention of censorship and surveillance, not commercial gain. Ambiguities should be resolved in favor of preserving the integrity of the Information Sovereignty conditions set forth in Section 4.
+
+---
+
+## 12. Licensor Liability and Enforcement.
+
+### 12.1 No Enforcement Obligation.
+
+Licensor is under no obligation to monitor for, investigate, or enforce violations of this License. Failure to enforce against any violation shall not constitute waiver of the right to enforce against the same or other violations.
+
+### 12.2 Licensor Liability Cap.
+
+Licensor shall not be liable to any party for any costs, fees, damages, or expenses arising from:
+
   (a) Licensor's enforcement or attempted enforcement of this License;
+
   (b) Licensor's decision not to enforce this License;
-  (c) Any third party's reliance on this License or compliance 
-      determinations made hereunder;
+
+  (c) Any third party's reliance on this License or compliance determinations made hereunder;
+
   (d) Any verification or audit activities under Section 4.3.
 
-To the maximum extent permitted by applicable law, Licensor's total 
-aggregate liability under this License shall not exceed zero dollars 
-($0 USD).
+To the maximum extent permitted by applicable law, Licensor's total aggregate liability under this License shall not exceed zero dollars ($0 USD).
 
-12.3 Good Faith Standard. Enforcement actions under this License 
-shall be conducted in good faith based on credible evidence of 
-violation. This License does not authorize vexatious, frivolous, 
-or bad-faith enforcement actions.
+### 12.3 Good Faith Standard.
 
-12.4 Exclusive Remedies. Licensor's sole remedies for breach of 
-this License are:
+Enforcement actions under this License shall be conducted in good faith based on credible evidence of violation. This License does not authorize vexatious, frivolous, or bad-faith enforcement actions.
+
+### 12.4 Exclusive Remedies.
+
+Licensor's sole remedies for breach of this License are:
+
   (a) Injunctive relief to halt unauthorized use;
-  (b) License termination; and
-  (c) Public disclosure of non-compliance.
 
-Licensor explicitly waives all rights to compensatory and statutory monetary damages. This waiver does NOT extend to the recovery of legal fees and costs. Licensor reserves the right to seek, and You agree to pay, reasonable attorneys' fees and costs associated with any successful action to enforce the terms of this License.
+  (b) License termination;
 
-END OF TERMS AND CONDITIONS
+  (c) Public disclosure of non-compliance;
 
-APPENDIX: How to apply the Hyphaeic Public License to your work.
+  (d) Retroactive commercial royalties as provided in Section 4.4.1; and
 
-Copyright [XXXX] [NAME / ORGANISATION]
+  (e) Recovery of attorneys' fees and costs as provided in Section 4.4.2.
 
-Licensed under the Hyphaeic Public License, Version 1.0 (the "License"); Jurisdiction for Dispute Resolution: [YOUR CHOSEN JURISTICTION]
+Licensor explicitly waives all rights to compensatory and statutory monetary damages except as expressly provided in Sections 4.4.1 and 4.4.2.
 
-You may not use this file except in compliance with the License. You may obtain a copy of the License at: https://github.com/hyphaeic/hpl
+---
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+## END OF TERMS AND CONDITIONS
+
+---
+
+# APPENDIX A: How to Apply the Hyphaeic Public License to Your Work
+
+## Step 1: Add the License File
+
+Copy the full HPL-1.0 license text into a file named `LICENSE` or `LICENSE.md` in the root of your repository.
+
+## Step 2: Add Copyright Notice to Source Files
+
+Add the following boilerplate notice to the top of each source file, replacing the bracketed text:
+
+```
+Copyright [YEAR] [YOUR NAME OR ORGANIZATION]
+
+Licensed under the Hyphaeic Public License, Version 1.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+    https://github.com/hyphaeic/hpl
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+## Step 3: Create a NOTICE File
+
+Create a file named `NOTICE` in the root of your repository. See Appendix B for the template and detailed instructions.
+
+## Step 4: (Optional) Register Your Work
+
+Consider registering your HPL-licensed work with the HPL Enforcement Registry (when available) to facilitate coordination with other licensors.
+
+---
+
+# APPENDIX B: NOTICE File Template and Instructions
+
+The NOTICE file is **required** for HPL-licensed works. It contains licensor-specific parameters that customize the license for your project.
+
+## Template
+
+Create a file named `NOTICE` with the following content:
+
+```
+================================================================================
+[PROJECT NAME]
+Hyphaeic Public License, Version 1.0
+================================================================================
+
+Copyright [YEAR] [YOUR NAME OR ORGANIZATION]
+
+This project is licensed under the Hyphaeic Public License, Version 1.0.
+https://github.com/hyphaeic/hpl
+
+================================================================================
+LICENSOR PARAMETERS
+================================================================================
+
+These parameters customize the HPL-1.0 for this specific Work. Where a 
+parameter is not specified, the default value in the License applies.
+
+LICENSOR JURISDICTION
+---------------------
+All disputes arising from this License shall be governed by the laws of,
+and adjudicated in the courts of:
+
+    [YOUR JURISDICTION]
+    
+Examples:
+    - "Jefferson County, Washington, United States"
+    - "England and Wales, United Kingdom"
+    - "New South Wales, Australia"
+
+Default if not specified: State of Washington, United States
+
+
+CONTACT ADDRESS
+---------------
+Notices required under Section 4.7 (Affirmative Obligations) shall be
+sent to:
+
+    [YOUR EMAIL ADDRESS OR PHYSICAL ADDRESS]
+
+Examples:
+    - "legal@yourcompany.com"
+    - "123 Main Street, Seattle, WA 98101, USA"
+
+
+COMMERCIAL ROYALTY AMOUNT
+-------------------------
+In the event of License conversion under Section 4.4.1, the stipulated
+commercial value of this Work is:
+
+    [AMOUNT] per calendar month
+
+Examples:
+    - "$10,000 USD" (default)
+    - "$50,000 USD" (for foundational infrastructure)
+    - "$100,000 USD" (for critical systems)
+    - "$1,000,000 USD" (for core platform dependencies)
+
+Default if not specified: $10,000 USD per calendar month
+
+Guidance for setting this amount:
+    - Consider the cost to replace this Work if it were proprietary
+    - Consider the value this Work provides to large-scale operations
+    - Consider what would make violation economically irrational
+    - Higher amounts create stronger deterrence but may face scrutiny
+    - The amount must be defensible as "reasonable commercial value"
+
+
+PRE-APPROVED AUDITORS
+---------------------
+The following auditors are pre-approved for compliance verification
+under Section 4.3.2(a):
+
+    1. [AUDITOR NAME/FIRM]
+    2. [AUDITOR NAME/FIRM]
+    3. [AUDITOR NAME/FIRM]
+
+If no auditors are listed, Section 4.3.2(b) or 4.3.2(c) shall apply.
+
+Suggested categories of pre-approved auditors:
+    - Digital rights organizations (EFF, Access Now, etc.)
+    - Big 4 accounting firms with technology audit practices
+    - Specialized compliance firms with ISO 27001 certification
+    - Academic researchers with relevant expertise
+
+
+================================================================================
+REGISTRY INFORMATION
+================================================================================
+
+This Work [is / is not] registered with the HPL Enforcement Registry.
+
+Registry URL (if applicable): [URL]
+
+
+================================================================================
+ENFORCEMENT RIGHTS ASSIGNMENT
+================================================================================
+
+Enforcement rights under this License [have / have not] been assigned.
+
+If assigned:
+    Assignee: [NAME OF ORGANIZATION]
+    Date of Assignment: [DATE]
+    Scope: [FULL / PARTIAL - describe scope if partial]
+
+
+================================================================================
+THIRD-PARTY COMPONENTS
+================================================================================
+
+This project includes the following third-party components:
+
+[COMPONENT NAME]
+    License: [LICENSE NAME]
+    Source: [URL]
+
+[COMPONENT NAME]
+    License: [LICENSE NAME]
+    Source: [URL]
+
+[Add additional components as needed]
+
+
+================================================================================
+ADDITIONAL LICENSOR NOTES
+================================================================================
+
+[Optional: Add any clarifications, interpretive guidance, or additional
+context specific to this Work. These notes are informational and do not
+modify the License terms.]
+
+
+================================================================================
+```
+
+## Parameter Guidance
+
+### Licensor Jurisdiction
+
+**What it controls:** 
+- Which laws govern the license (Section 11.1)
+- Where disputes are litigated (Section 11.2)
+- What "Lawful Expression" means for carve-outs tied to Licensor's Jurisdiction
+
+**Strategic considerations:**
+- Choose a jurisdiction where you can practically litigate
+- Consider jurisdictions with strong copyright enforcement
+- Your home jurisdiction is usually best (you know the system, can find local counsel)
+- US jurisdictions benefit from strong injunctive relief traditions
+- EU jurisdictions may have different considerations under GDPR/DSA
+
+**Examples:**
+- US: "King County, Washington, United States"
+- UK: "England and Wales, United Kingdom"  
+- EU: "Berlin, Germany" or "Amsterdam, Netherlands"
+- Australia: "New South Wales, Australia"
+
+### Commercial Royalty Amount
+
+**What it controls:**
+- The monthly amount owed if a court denies injunctive relief (Section 4.4.1)
+- Retroactive from date of initial violation
+
+**Strategic considerations:**
+
+| Project Type | Suggested Range | Rationale |
+|--------------|-----------------|-----------|
+| Small utility library | $1,000 - $10,000 | Proportionate to scope |
+| Significant component | $10,000 - $50,000 | Default range, defensible |
+| Core infrastructure | $50,000 - $250,000 | High value, high deterrence |
+| Foundational platform | $250,000 - $1,000,000 | Critical dependency pricing |
+| Industry-standard tool | $1,000,000+ | Maximum deterrence |
+
+**Warning:** Very high amounts may be challenged as unenforceable penalties. The amount must be defensible as the "reasonable commercial value" of the work. Consider:
+- What would a proprietary license for similar software cost?
+- What do enterprise licenses for comparable tools cost?
+- What revenue does this software enable for large users?
+
+**Default:** $10,000 USD/month. This is deliberately modest—high enough to be meaningful, low enough to be clearly reasonable.
+
+### Pre-Approved Auditors
+
+**What it controls:**
+- Who can be selected unilaterally by Licensor if parties can't agree (Section 4.3.2(a))
+
+**Strategic considerations:**
+- Pre-approving auditors removes a stalling tactic (refusal to agree)
+- Consider organizations with both technical expertise and alignment with your values
+- Having multiple options prevents conflicts of interest
+
+**Suggested categories:**
+1. **Digital rights organizations:** EFF, Access Now, Article 19, CDT
+2. **Technical audit firms:** Big 4 technology audit practices, specialized infosec firms
+3. **Academic institutions:** University research centers with relevant expertise
+4. **Independent experts:** Named individuals with recognized credentials
+
+---
+
+# APPENDIX C: Quick Reference Guide
+
+## Who Can Use HPL-Licensed Code?
+
+| Entity Type | Can Use? | Requirements |
+|-------------|----------|--------------|
+| Individual developer | ✅ Yes | Attestation (4.7) |
+| Startup (<100 employees, <$50M) | ✅ Yes | Attestation, no surveillance/suppression business |
+| Medium company (<500 employees, <$250M) | ✅ Yes | Attestation + transparency report + appeals process |
+| Large company (>500 employees or >$250M) | ⚠️ Conditional | Full Section 4 compliance |
+| Dominant platform (>$1B or >50M MAU) | ⚠️ Conditional | Full Section 4 compliance, strict moderation limits |
+| Surveillance company (any size) | ❌ No | No safe harbor exists |
+| Data broker (any size) | ❌ No | No safe harbor exists |
+| Content moderation vendor (any size) | ❌ No | No safe harbor exists |
+| "Trust & safety" vendor (any size) | ❌ No | No safe harbor exists |
+| Law enforcement tech vendor (any size) | ❌ No | No safe harbor exists |
+| Company with >10% revenue from above | ❌ No | Material Business Activity exclusion |
+
+## What's Prohibited?
+
+### 1. Suppression Infrastructure
+Systems that restrict lawful expression without meeting ALL THREE requirements:
+- **Transparency:** Public record with hash, policy citation, and substantive explanation
+- **Accountability:** Quarterly reports, dispute process, asymmetry detection data
+- **Neutrality:** Viewpoint-neutral enforcement, identical treatment for similar content
+
+This includes **financial deplatforming** for political reasons (Stripe, PayPal, etc.).
+
+### 2. Surveillance Infrastructure
+Systems targeting civilians that:
+- Aggregate data without explicit, informed, revocable consent
+- Correlate identity across contexts without user initiation
+- Provide government access without individualized judicial orders
+
+### 3. Targeted Support
+- Building custom tools for suppressors/surveillors
+- Knowingly providing services primarily used for suppression/surveillance
+- Marketing products for content moderation, surveillance, or law enforcement
+
+### 4. Viewpoint-Based Moderation by Dominant Platforms
+If you're big enough to matter (>$1B revenue or >50M MAU), you can only restrict:
+- Actually illegal content (in user's jurisdiction)
+- Applied uniformly without viewpoint discrimination
+
+## What's Always Allowed?
+
+1. **Removing CSAM** — Never "Lawful Expression"
+2. **Removing True Threats** — Never "Lawful Expression"  
+3. **Removing incitement to imminent violence** — Never "Lawful Expression"
+4. **Format restrictions** — Character limits, file type restrictions, etc.
+5. **Spam filtering** — Automated/coordinated behavior regardless of viewpoint
+6. **DMCA compliance** — IP claims via legal process
+7. **Military applications against combatants** — Explicitly permitted
+8. **Individual self-defense** — Explicitly permitted
+
+## If You're Accused of Violating
+
+1. Licensor must make a **Prima Facie Showing** (credible evidence)
+2. You have **30 days** to agree on an auditor (or Licensor selects)
+3. Audit completed within **60 days**
+4. **If compliant:** Costs split (or Licensor pays all if claim was unreasonable)
+5. **If non-compliant:** You pay all costs, license terminates, injunction likely follows
+6. **If injunction denied:** Commercial royalty conversion kicks in (retroactive)
+
+## The "Material Business Activity" Test
+
+You get NO safe harbor if ANY of these apply:
+
+| Test | Threshold | What It Catches |
+|------|-----------|-----------------|
+| Revenue | >10% from surveillance/suppression/data brokerage | Palantir, Clearview, data brokers |
+| Marketing | Actively markets surveillance/intelligence/suppression | Ring, companies positioning as surveillance vendors |
+| Integration | Products designed to integrate with law enforcement | Flock Safety, police tech vendors |
+
+## Setting Your Commercial Royalty Amount
+
+The default is $10,000/month. Consider raising it if:
+
+- Your project is foundational infrastructure
+- Large companies would derive significant value from it
+- You want maximum deterrence
+- The replacement cost would be very high
+
+Consider keeping it moderate if:
+
+- You want the amount to be clearly defensible as "reasonable"
+- Your project is a smaller utility
+- You're more focused on adoption than deterrence
+
+---
+
+# APPENDIX D: Comparison to Other Licenses
+
+| License | Copyleft | Ethical Restrictions | Commercial Fallback | Audit Rights |
+|---------|----------|---------------------|---------------------|--------------|
+| MIT | No | No | No | No |
+| Apache 2.0 | No | No | No | No |
+| GPL 3.0 | Yes | No | No | No |
+| AGPL 3.0 | Yes (network) | No | No | No |
+| SSPL | Yes (service) | No | No | No |
+| Hippocratic | No | Yes (broad) | No | No |
+| **HPL 1.0** | No | Yes (targeted) | Yes | Yes |
+
+### Key Differences from Similar Licenses
+
+**vs. Hippocratic License:**
+- HPL is narrower (only censorship/surveillance, not all "ethical" concerns)
+- HPL has enforcement teeth (audits, commercial conversion)
+- HPL has clear safe harbors for small entities
+
+**vs. JSON "Good not Evil":**
+- HPL defines prohibited uses precisely
+- HPL is designed to be litigated, not just symbolic
+- HPL has actual enforcement mechanisms
+
+**vs. Commons Clause:**
+- Commons Clause restricts commercial use generally
+- HPL restricts specific *types* of use regardless of commercial status
+- HPL allows commercial use by compliant entities
+
+**vs. SSPL:**
+- SSPL is copyleft (requires source disclosure)
+- HPL is permissive for compliant users
+- HPL targets behavior, not business model
+
+---
+
+*This document is provided for informational purposes. It is not legal advice. Consult a qualified attorney before releasing software under any license or relying on license terms in commercial operations.*
+
+*HPL-1.0 is maintained by Hyphaeic. For updates, discussion, and the enforcement registry, visit: https://github.com/hyphaeic/hpl*
