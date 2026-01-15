@@ -6,9 +6,9 @@ HPL-1.0 is Apache 2.0 with a legal landmine against entities that enable opaque 
 
 A deployable legal trojan horse for small teams, indie devs, open hardware projects, researchers and others. Licensors are extensively protected.
 
-The objective is to lay licence traps in the open source ecosystem that will inevitably get scooped up into larger codebases of entities enabling digital surveillance & suppression. 
+It lists explicit terms,including differentiating law enforcement and military usage against lawful combatants. 
 
-If you enable surveillance or suppression of information, you are in violation kg this licence. It lists explicit terms,including differentiating law enforcement and military usage against lawful combatants. Once caught, the licensor has grounds to sue. 
+The objective is to lay license traps in the open source ecosystem that will inevitably get scooped up into larger codebases of entities enabling digital surveillance & suppression. These entities are them thus in violation of this license, which opens grounds to seek injunction.
 
 The discovery process is early and public. This licence lists internal moderation informstion and brings it into the public's eye through the courts. 
 
