@@ -6,8 +6,6 @@ HPL-1.0 is Apache 2.0 with a legal landmine buried in Section 4.
 
 The license looks familiar. Compliance teams pattern-match it to Apache, see "permissive," and move on. Developers copy-paste it into large codebases without reading carefully. By the time anyone notices Section 4, the code is already integrated.
 
-Here's what they've agreed to by using it:
-
 1. **Retroactive termination**: If they violate Section 4, the license is void *ab initio*—as if it was never granted. All prior use becomes copyright infringement.
 
 2. **Audit consent**: They've agreed to let an independent auditor inspect their moderation logs and policy enforcement. They've waived trade secret protection over their moderation systems.
