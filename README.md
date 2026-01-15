@@ -2,6 +2,10 @@
 
 A software license derived from Apache 2.0 with additional conditions restricting use by operators of censorship and surveillance infrastructure.
 
+## Philosophy
+
+This software is provided for the advancement of open infrastructure and individual sovereignty. The Licensor declines monetary compensation in favor of a specific ethical exchange: **You may use this Work only if You respect the digital rights of end-users.** This ethical compliance is the sole and material consideration for this License. If You cannot pay this price, You have no right to the Work.
+
 ## Quick Summary
 
 | You CAN use HPL-licensed software if you... | You CANNOT use HPL-licensed software if you... |
@@ -10,6 +14,7 @@ A software license derived from Apache 2.0 with additional conditions restrictin
 | Develop defense/military applications against lawful combatants | Operate surveillance systems targeting civilian populations |
 | Run a small company with content moderation | Provide cloud/API services to censorship or surveillance operators |
 | Are an individual or researcher | Are a dominant platform with viewpoint-based content policies |
+| Build defense systems without law enforcement integration | Build any system with law enforcement integration |
 
 ## What This License Does
 
@@ -18,6 +23,7 @@ HPL-1.0 grants the same permissions as Apache 2.0 (use, modify, distribute, subl
 Section 4 prohibits use by entities that operate:
 - **Suppression Infrastructure**: Systems that censor lawful expression without transparency
 - **Surveillance Infrastructure**: Systems that monitor civilian populations without consent
+- **Law Enforcement Integration**: Systems designed to feed data to government/police
 
 It also prohibits providing material support (hosting, APIs, compute) to such operators.
 
@@ -29,13 +35,13 @@ This is the core concept that distinguishes HPL from other licenses. Read this s
 
 ### The Three-Prong Test
 
-A system becomes "Suppression Infrastructure" if it restricts the transmission, display, or discoverability of **lawful expression** based on viewpoint, political content, or deviation from institutional consensus, where such restriction meets ANY of these conditions:
+A system becomes "Suppression Infrastructure" if it restricts the transmission, display, or discoverability of **lawful expression** based on viewpoint, political content, or deviation from institutional consensus, where such restriction **fails ANY** of these requirements:
 
 | Prong | Requirement | What It Means |
 |-------|-------------|---------------|
-| **(a) No Public Justification** | Applied without contemporaneous, specific, and public justification citing the exact content at issue | You must explain *what* was removed and *why*, publicly, at the time of removal |
-| **(b) No Transparency Metrics** | Not subject to transparent reversal metrics published no less than quarterly | You must publish how often your moderation decisions get overturned |
-| **(c) Asymmetric Application** | Applied asymmetrically based on the identity, affiliation, or perceived status of the speaker | You cannot enforce rules selectively based on who is speaking |
+| **(a) TRANSPARENCY** | Each restriction must have a permanently accessible public record containing: (i) a cryptographic hash of the restricted content, (ii) the specific policy clause cited, and (iii) a substantive explanation of how the content violated that clause | You must publish a hash of removed content, cite the exact rule, AND explain *how* the content violated it—sufficiently for an independent observer to evaluate. Bare citations like "violated Policy 7.3" do NOT satisfy this. |
+| **(b) ACCOUNTABILITY** | Must provide a dispute resolution process AND publish quarterly: (i) total restrictions applied, (ii) restrictions reversed on dispute, and (iii) disaggregated data sufficient to detect asymmetric enforcement | You need an appeals process AND quarterly stats that are broken down enough to reveal if you're enforcing selectively against certain viewpoints or speaker categories. |
+| **(c) NEUTRALITY** | Restrictions must be applied uniformly without regard to identity, political affiliation, viewpoint, or perceived status. Identical content must receive identical treatment regardless of source. | You cannot enforce rules selectively based on who is speaking. Patterns of selective enforcement constitute asymmetric application **regardless of facial neutrality of stated policies**. |
 
 **These are disjunctive (OR)**: Failing ANY single prong makes your system Suppression Infrastructure.
 
@@ -45,8 +51,8 @@ A common misreading of this license is that it merely requires transparency—th
 
 Consider the three prongs together:
 
-- **Prong (a)** requires transparency about *what* you remove
-- **Prong (b)** requires transparency about your *error rate*
+- **Prong (a)** requires transparency about *what* you remove (with cryptographic proof and substantive reasoning)
+- **Prong (b)** requires transparency about your *error rate* and *enforcement patterns*
 - **Prong (c)** requires *uniform application regardless of speaker identity*
 
 A platform could satisfy (a) and (b) perfectly—publishing detailed justifications for every removal and quarterly statistics—while still violating (c) by enforcing rules selectively. Conversely, a platform could apply rules uniformly while failing to provide public justification.
@@ -89,7 +95,7 @@ These removals involve lawful expression but can be compliant if all three prong
 
 | Action | Requirements for Compliance |
 |--------|----------------------------|
-| Remove content that violates disclosed rules | (a) Public notice citing specific content and rule, (b) publish reversal rates, (c) enforce identically regardless of speaker |
+| Remove content that violates disclosed rules | (a) Public record with hash, policy citation, and substantive explanation, (b) dispute process + quarterly disaggregated stats, (c) enforce identically regardless of speaker |
 | Restrict content to logged-in users | Same transparency requirements |
 | Apply geographic restrictions | Must be based on actual illegality in that jurisdiction, not platform preference |
 | Downrank or reduce distribution | Same transparency requirements as removal—algorithmic suppression is still suppression |
@@ -131,14 +137,14 @@ These removals cannot be made compliant because they inherently violate prong (c
 |----------|------------|-----|
 | Platform removes CSAM | ✅ Yes | Illegal content, not lawful expression |
 | Platform removes credible death threats | ✅ Yes | Illegal content |
-| Platform removes posts with public notice citing specific rule violation | ✅ Yes | Meets transparency requirements (if rules are viewpoint-neutral) |
+| Platform removes posts with public record (hash + policy + substantive explanation) | ✅ Yes | Meets transparency requirements (if rules are viewpoint-neutral) |
 | Platform removes political content without explanation | ❌ No | Fails prong (a): no public justification |
-| Platform publishes quarterly transparency report with reversal rates | ✅ Yes | Satisfies prong (b), but must also satisfy (a) and (c) |
+| Platform publishes quarterly transparency report with disaggregated reversal data | ✅ Yes | Satisfies prong (b), but must also satisfy (a) and (c) |
 | Platform bans users for off-platform political affiliations | ❌ No | Fails prong (c): punishment based on identity/affiliation |
 | Platform removes "hate speech" that is legal in user's jurisdiction | ❌ No | Viewpoint-based restriction of lawful expression |
 | Platform labels lawful content as "misinformation" | ❌ No | Viewpoint-based; platform claiming authority over contested truth |
 | Platform removes "harassment" (lawful criticism of public figures) | ❌ No | Asymmetric enforcement based on target identity |
-| Platform enforces identical rules but only against one political tendency | ❌ No | Fails prong (c): asymmetric application |
+| Platform enforces identical rules but only against one political tendency | ❌ No | Fails prong (c): asymmetric application regardless of facial neutrality |
 | Platform removes content legal in user's country because it's illegal in another country | ❌ No | Lawful expression for that user |
 | Platform uses algorithmic downranking instead of removal | ❌ No | Suppression of discoverability still counts |
 | Platform has vague "community guidelines" with selective enforcement | ❌ No | Vagueness enables asymmetric application |
@@ -150,7 +156,12 @@ These removals cannot be made compliant because they inherently violate prong (c
 
 ## Surveillance Infrastructure
 
-**What it means**: Systems targeting noncombatant populations that collect personal data without consent, correlate identity across contexts, or provide government access without judicial oversight.
+**What it means**: Systems targeting noncombatant populations that:
+- Collect personal data without explicit, informed, revocable consent for each distinct use case
+- Enable correlation of identity across contexts without user initiation
+- Provide government/law enforcement/intelligence access without a public, individualized judicial order
+
+**"Noncombatant"** means any individual not actively engaged in armed conflict as a member of an organized armed force. Civilian populations, including citizens subject to domestic law enforcement, are noncombatants. A state's unilateral classification of its own civilians as combatants does not alter their status under this License.
 
 | Scenario | Permitted? | Why |
 |----------|------------|-----|
@@ -170,6 +181,29 @@ These removals cannot be made compliant because they inherently violate prong (c
 **The test**: Does the system target civilians AND (a) collect data without consent, (b) correlate identity across contexts, or (c) give government access without judicial oversight?
 
 **Important**: There is **NO safe harbor** for surveillance infrastructure. A 10-person startup building police surveillance tools cannot use HPL-licensed software.
+
+---
+
+## Law Enforcement Integration
+
+**What it means**: Any feature, API, data pipeline, or contractual arrangement designed to facilitate automated export, mirroring, or real-time access of data to any system controlled by or accessible to a government entity, law enforcement agency, or intelligence service.
+
+This includes:
+- **Backdoor access**: Administrative keys or privileges provided to state actors
+- **Automated reporting**: Tools that transmit user data without a public, individualized judicial order
+- **Predictive policing feeds**: Ingestion of data into predictive policing databases or fusion centers
+
+| Scenario | Permitted? | Why |
+|----------|------------|-----|
+| App with no government data sharing | ✅ Yes | No LEI |
+| App with warrant-based data disclosure (case-by-case judicial orders) | ✅ Yes | Individualized judicial process, not automated integration |
+| App with automated "hash matching" reporting to law enforcement | ❌ No | Automated reporting without individualized judicial order |
+| Platform with "transparency portal" for police bulk requests | ❌ No | Facilitates bulk access |
+| Defense contractor system with FBI data feed | ❌ No | LEI disqualifies even defense applications |
+| Security camera system with police API | ❌ No | Real-time access provision to law enforcement |
+| Security camera system, recordings only disclosed via warrant | ✅ Yes | Individualized judicial process |
+
+**Critical interaction with Defense Applications**: Section 4.6 permits defense/military uses, but **explicitly excludes** any system incorporating Law Enforcement Integration. You can build weapons systems; you cannot build domestic surveillance systems, even if you call them "defense."
 
 ---
 
@@ -224,8 +258,12 @@ Dominant platforms face stricter requirements under Section 4.1(d): their conten
 | "Counter-terrorism" system monitoring domestic political groups | ❌ No | Domestic civilian monitoring |
 | Police drone surveillance labeled as "defense" | ❌ No | Label doesn't change civilian targeting |
 | National Guard deployment against domestic protesters | ❌ No | Civilians are noncombatants regardless of state classification |
+| Defense system with law enforcement data integration | ❌ No | **LEI exclusion applies** |
+| Military system feeding data to FBI/DHS | ❌ No | **LEI exclusion applies** |
 
 **The test**: Is the target a lawful combatant under international humanitarian law? A state calling its own citizens "enemies" or "terrorists" doesn't make them combatants.
+
+**Critical limitation**: Defense permissions **explicitly exclude** any system incorporating Law Enforcement Integration. Individual self-defense is permitted; state-sponsored mass surveillance via law enforcement pipelines is prohibited, even under a "defense" label.
 
 ---
 
@@ -236,12 +274,46 @@ HPL-1.0 includes provisions designed to make violations costly:
 | Provision | Effect |
 |-----------|--------|
 | **Retroactive termination** | Violation voids the license as if it was never granted—all past use becomes infringement |
-| **Discovery consent** | Violators agree to disclose internal moderation policies, training materials, and communications |
-| **Audit consent** | Violators agree to independent compliance audits at their expense |
-| **Asymmetric jurisdiction** | Disputes resolved in jurisdiction selected by licensor at time of dispute |
-| **Fee shifting** | Non-prevailing party pays all legal costs including attorneys' fees |
+| **Verification consent** | Upon prima facie showing of violation, you agree to independent technical audit of moderation logs and policy enforcement records |
+| **Trade secret waiver** | You waive trade secret claims regarding existence or error rates of moderation systems (but not source code) |
+| **Audit cost splitting** | Each party bears its own costs; auditor fees split equally unless otherwise agreed |
+| **Rebuttable presumption** | Refusal to cooperate with verification within 60 days creates presumption of non-compliance |
+| **Injunctive relief without bond** | Licensor can seek injunction without posting bond |
+| **Fee shifting (one-way)** | If Licensor prevails in enforcement, violator pays Licensor's attorneys' fees and costs |
+| **Jurisdiction** | Disputes resolved in Licensor's jurisdiction (specified in NOTICE file, or where Licensor resides) |
 
 These provisions are designed to make legal/compliance teams flag HPL-licensed software as high-risk for entities that might violate Section 4.
+
+---
+
+## Licensor Protections
+
+HPL-1.0 includes provisions protecting the Licensor:
+
+| Provision | Effect |
+|-----------|--------|
+| **No enforcement obligation** | Licensor is not required to monitor for or enforce violations; non-enforcement is not waiver |
+| **Zero liability cap** | Licensor's total aggregate liability is $0 USD |
+| **Good faith standard** | Enforcement must be based on credible evidence; no vexatious or bad-faith actions |
+| **Exclusive remedies** | Licensor's only remedies are injunctive relief, license termination, and public disclosure |
+| **Damages waiver** | Licensor explicitly waives compensatory and statutory monetary damages (but NOT attorneys' fees) |
+| **Enforcement immunity** | Licensor not liable for costs arising from enforcement or non-enforcement decisions |
+
+---
+
+## Essential Consideration
+
+HPL-1.0 treats Section 4 compliance as the **sole consideration** for the license grant:
+
+| Principle | Effect |
+|-----------|--------|
+| **Ethical exchange** | Your compliance with Section 4 is what you "pay" for the right to use the software |
+| **Indivisibility** | If Section 4 is held unenforceable by a court, the entire license is void due to failure of consideration |
+| **Immediate termination** | If Section 4 fails, all rights terminate immediately |
+| **Post-termination use** | Continued use after termination constitutes copyright infringement |
+| **Limited remedy** | Licensor waives compensatory damages for post-termination use; sole remedy is injunctive relief |
+
+This means you cannot argue "Section 4 is unenforceable, so I get Apache 2.0 terms." If Section 4 fails, you get nothing.
 
 ---
 
@@ -291,6 +363,18 @@ Popularity doesn't determine lawfulness. If the content is legal, it's lawful ex
 
 No. "Misinformation" policies assume platform authority to determine truth on contested questions. This is viewpoint-based content restriction. If content is actually illegal (fraud, defamation), remove it as illegal content. If it's legal but you disagree with it, you cannot remove it without operating Suppression Infrastructure.
 
+**What's the difference between Law Enforcement Integration and responding to warrants?**
+
+Responding to individualized, public judicial orders (warrants) on a case-by-case basis is permitted. Building automated pipelines, backdoors, or bulk access systems for law enforcement is LEI and prohibited.
+
+**Can I build defense software that also has law enforcement uses?**
+
+No. The defense permissions explicitly exclude systems with Law Enforcement Integration. If your system feeds data to domestic law enforcement, it's not covered by the defense carve-out.
+
+**What happens if a court finds Section 4 unenforceable?**
+
+The entire license is void. You don't fall back to Apache 2.0 terms—you lose all rights to use the software. This is the "Essential Consideration" provision.
+
 **Is this enforceable?**
 
 Some provisions may face enforceability challenges depending on jurisdiction. However, the primary function is signaling and filtering: compliance teams will flag these provisions as risk factors regardless of ultimate enforceability.
@@ -311,7 +395,8 @@ Some provisions may face enforceability challenges depending on jurisdiction. Ho
 
 1. Copy `LICENSE` to your repository root
 2. Add the boilerplate notice to source files (see APPENDIX in LICENSE)
-3. Update package metadata:
+3. Specify your jurisdiction in the copyright notice
+4. Update package metadata:
 
 **Cargo.toml (Rust):**
 ```toml
