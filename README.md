@@ -4,9 +4,9 @@
 
 You built something. You want to share it. You want others to learn from it, build on it, make money from it, fork it, improve it. But you don't want it weaponized against the people it was meant to serve.
 
-HPL-1.0 is for the indie dev shipping from a café. The open hardware collective designing the next generation of tools. The two-person startup that believes software should be free—as in freedom, not just free beer. The researchers publishing their work because knowledge wants to be shared.
+HPL-1.0 is for the indie dev shipping from the bakery or the bedroom. The open hardware collective designing the next generation of tools.
 
-This license says: **Take it. Use it. Build empires on it. Just don't use it to build cages.**
+**Take it. Use it. Build empires on it. Just don't use it to build cages.**
 
 ---
 
