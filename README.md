@@ -2,11 +2,11 @@
 
 **A license for makers, not extractors.**
 
-You built something. You want to share it. You want others to learn from it, build on it, make money from it, fork it, improve it. But you don't want it weaponized against the people it was meant to serve.
+You built something. You want to share it. You want others to learn from it, build on it, make money from it, fork it, improve it. But you don't want it weaponized against the people it was meant to serve. Any entity involved with digital surveilance & supression technologies 
 
 HPL-1.0 is for the indie dev shipping from the bakery or the bedroom. The open hardware collective designing the next generation of tools.
 
-**Take it. Use it. Build empires on it. Just don't use it to build cages.**
+This license is intended to be a trojan horse. A legal warhead. We know our technologies will be stolen. Let them drink from poisoned wells.
 
 ---
 
