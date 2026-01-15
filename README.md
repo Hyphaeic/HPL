@@ -2,11 +2,11 @@
 
 ## What This Is
 
-HPL-1.0 is Apache 2.0 with a legal landmine. It's an experiment in using open source licensing as a weapon against surveillance capitalism and information suppression—designed to create latent legal exposure for entities that hoover up open source code without reading the fine print.
+HPL-1.0 is Apache 2.0 with a legal trojan horse. It's an experiment in using open source licensing as a weapon against surveillance capitalism and information suppression—designed to create latent legal exposure for entities that hoover up open source code without reading the fine print.
 
-For small teams, indie devs, open hardware projects, and researchers, it should function like a more protective Apache 2.0. For Big Tech platforms with opaque content moderation, surveillance companies, data brokers, and their enablers, it's intended to be radioactive: code that compliance teams flag as high-risk, and that creates real legal exposure if they use it anyway.
+For small teams, indie devs, open hardware projects, and researchers, it should function like a more protective Apache 2.0. For Big Tech platforms with opaque content moderation, surveillance companies, data brokers, and their enablers, it's intended to be radioactive and brutal: code that compliance teams flag as high-risk, and that creates real legal exposure if they use it anyway.
 
-Whether all of this actually works in court remains to be seen. What follows is the theory.
+Whether all of this actually works in court remains to be seen. What follows is the theory. HPL is designed to be a legal landmine.
 
 ---
 
