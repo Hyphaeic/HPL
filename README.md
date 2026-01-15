@@ -23,7 +23,7 @@ If you're reading this, HPL-1.0 is probably for you. Here's who we built it for:
 | **Researchers & academics** | Publish freely. Your work stays in the commons. |
 | **Defense contractors** | Yes, really. Build weapons systems—just not domestic surveillance. |
 
-**The safe harbor is real**: If you have fewer than 100 employees and less than $50M in revenue, the content moderation rules don't apply to you. Run your Discord however you want. Moderate your forum. Ban trolls. You're covered.
+**safe harbor**: If you have fewer than 100 employees and less than $50M in revenue, the content moderation rules don't apply to you. Run your Discord however you want. Moderate your forum. Ban trolls. You're covered.
 
 ---
 
