@@ -4,7 +4,7 @@
 
 HPL-1.0 is Apache 2.0 with a legal landmine against entities that enable opaque suppression of information, surveillance technologies and their material beneficiaries.
 
-A deployable legal trojan horse for small teams, indie devs, open hardware projects, researchers and others. Licensors are extensively protected.
+A deployable legal trojan horse for small teams, indie devs, open hardware projects, researchers and others. Licensors are extensively protected, fees are covered for the licensor upon reaching enforcement, but licensors cannot seek monetary damages. Using an aligned lawyer with solid evidence, it should be $0 in, $0 out. 
 
 It lists explicit terms,including differentiating law enforcement and military usage against lawful combatants. 
 
