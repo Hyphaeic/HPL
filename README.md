@@ -8,9 +8,9 @@ A deployable legal trojan horse for small teams, indie devs, open hardware proje
 
 The objective is to lay licence traps in the open source ecosystem that will inevitably get scooped up into larger codebases of entities enabling digital surveillance & suppression. 
 
-This licence lists explicit terms, including differentiating law enforcement and military usage against lawful combatants. If you enable surveillance or suppression of information, you are in violation of these terms.
+If you enable surveillance or suppression of information, you are in violation kg this licence. It lists explicit terms,including differentiating law enforcement and military usage against lawful combatants. Once caught, the licensor has grounds to sue. 
 
-Next comes the discovery process. This licence lists internal moderation informstion and brings it into the public's eye through the courts. 
+The discovery process is early and public. This licence lists internal moderation informstion and brings it into the public's eye through the courts. 
 
 1. **Retroactive termination**: If they violate Section 4, the license is void *ab initio*—as if it was never granted. All prior use becomes copyright infringement.
 
