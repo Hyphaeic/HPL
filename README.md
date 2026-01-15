@@ -359,5 +359,3 @@ This repository is licensed under [HPL-1.0](LICENSE).
 ---
 
 **With Love, Hyphaeic**
-
-*For the builders. Against the cages.*
