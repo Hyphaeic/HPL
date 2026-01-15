@@ -4,11 +4,13 @@
 
 HPL-1.0 is Apache 2.0 with a legal landmine against entities that enable opaque suppression of information, surveillance technologies and their material beneficiaries.
 
-A deployable legal trojan horse for small teams, indie devs, open hardware projects, researchers and others.
+A deployable legal trojan horse for small teams, indie devs, open hardware projects, researchers and others. Licensors are extensively protected.
 
-Infractions cannot resolve for material benefit, only specific injunctionary measures & legal fees to uncover these shadowy machines.
+The objective is to lay licence traps in the open source ecosystem that will inevitably get scooped up into larger codebases of entities enabling digital surveillance & suppression. 
 
-The license looks familiar. Compliance teams pattern-match it to Apache, see "permissive," and move on. Developers copy-paste it into large codebases without reading carefully. By the time anyone notices Section 4, the code is already integrated.
+This licence lists explicit terms, including differentiating law enforcement and military usage against lawful combatants. If you enable surveillance or suppression of information, you are in violation of these terms.
+
+Next comes the discovery process. This licence lists internal moderation informstion and brings it into the public's eye through the courts. 
 
 1. **Retroactive termination**: If they violate Section 4, the license is void *ab initio*—as if it was never granted. All prior use becomes copyright infringement.
 
