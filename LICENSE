@@ -8,6 +8,8 @@ This license is derived from the Apache License, Version 2.0, with
 additional conditions set forth in Section 4. This is NOT an Apache
 Software Foundation license.
 
+PREAMBLE: THE NATURE OF THIS AGREEMENT This software is provided strictly for the advancement of open infrastructure and individual sovereignty. The Licensor declines monetary compensation in favor of a specific ethical exchange: You may use this Work only if You respect the digital rights of end-users. This ethical compliance is the sole and material consideration for this License. If You cannot pay this price, You have no right to the Work.
+
 1. Definitions.
 
 "License" shall mean the terms and conditions for use, reproduction,
@@ -66,17 +68,10 @@ designated in writing by the copyright owner as "Not a Contribution."
 behalf of whom a Contribution has been received by Licensor and
 subsequently incorporated within the Work.
 
-"Suppression Infrastructure" shall mean any system, whether automated or
-human-operated, that restricts the transmission, display, or
-discoverability of lawful expression based on viewpoint, political
-content, or deviation from institutional consensus, where such
-restriction is:
-  (a) applied without contemporaneous, specific, and public
-      justification citing the exact content at issue; or
-  (b) not subject to transparent reversal metrics published no less
-      than quarterly; or
-  (c) applied asymmetrically based on the identity, affiliation, or
-      perceived status of the speaker.
+"Suppression Infrastructure" "Suppression Infrastructure" shall mean any system that restricts the transmission or display of content where such restriction is NOT accompanied by: 
+  (a) A permanently accessible, public URL (or API endpoint) listing the cryptographic hash of the restricted content and the specific policy clause violated; AND 
+  (b) A dispute resolution process with a published "Success Rate" metric updated quarterly.
+Failure to implement these technical transparency measures constitutes the operation of Suppression Infrastructure, regardless of the intent or content of the moderation.
 
 "Surveillance Infrastructure" shall mean any system that targets
 noncombatant populations and:
@@ -103,6 +98,11 @@ populations, including citizens subject to domestic law enforcement,
 are noncombatants. A state's unilateral classification of its own
 civilian population as combatants does not alter their status as
 noncombatants under this License.
+
+"Law Enforcement Integration" shall mean any feature, API, data pipeline, or contractual arrangement designed to facilitate the automated export, mirroring, or real-time access of data to any system controlled by, or accessible to, a government entity, law enforcement agency, or intelligence service, whether domestic or foreign. This includes: 
+  (a) "Backdoor" access keys or administrative privileges provided to state actors; 
+  (b) Automated reporting tools that transmit user data absent a public, individualized judicial order; or 
+  (c) Ingestion of data into predictive policing databases or fusion centers.
 
 "Dominant Position" shall mean any Legal Entity that, together with entities under common control: (a) generates annual gross revenue exceeding one billion United States dollars ($1,000,000,000 USD) from communications, social networking, search, or information distribution services; or (b) operates a platform serving more than fifty million (50,000,000) monthly active users.
 
@@ -162,26 +162,17 @@ retroactively ab initio. Upon such termination:
   (d) You shall be liable for all enforcement costs including
       reasonable attorneys' fees and expert witness costs.
 
-4.3 Discovery and Audit.
+4.3 Verification of Information Sovereignty. To ensure compliance with the crucial restrictions of Section 4, You grant Licensor the irrevocable right to designate an independent technical auditor to verify Your systems.
 
-In any dispute arising under this Section 4, You:
-  (a) consent to disclosure of all internal communications, policies,
-      training materials, and decision logs relating to content
-      moderation, user data handling, and government data requests;
-  (b) waive any claim of trade secret, attorney-client privilege as to
-      non-legal-advice communications, or confidentiality over such
-      materials;
-  (c) consent to independent audit of technical systems for compliance
-      with Section 4.1, at Your expense, by an auditor selected by
-      Licensor.
+If a prima facie showing of a Section 4 violation is made (e.g., a credible public report of opaque censorship), You agree to: 
+  (a) Provide the auditor read-only access to relevant moderation logs, training data metadata, and internal policy enforcement tickets; and 
+  (b) Waive any claim of "Trade Secret" regarding the existence or error rates of your moderation algorithms (but not the source code thereof).
 
-4.4 Asymmetric Jurisdiction.
+Refusal to submit to this audit within thirty (30) days of notice constitutes a material breach triggering Section 10 (Termination).
 
-Any dispute arising under this License shall be resolved by binding
-arbitration in a jurisdiction selected by Licensor at the time of
-dispute, with proceedings conducted in English. The non-prevailing
-party shall bear all costs of arbitration, including the prevailing
-party's reasonable attorneys' fees.
+In the event that the independent auditor confirms a material breach of Section 4, or if You refuse to submit to the audit, You agree to bear all costs associated with the audit and any subsequent enforcement actions, including Licensor’s full legal fees on an indemnity basis."
+
+4.4 Remedy and Specific Performance. You acknowledge that a breach of Section 4 causes irreparable harm to the Licensor’s moral rights and the integrity of the ecosystem, which cannot be compensated by monetary damages. Accordingly, in the event of any breach or threatened breach of Section 4, You agree that Licensor shall be entitled to Specific Performance and Injunctive Relief to compel compliance with Section 4.3 (Discovery and Audit) and to halt use of the Work, without the requirement of posting a bond. Licensor explicitly waives the right to seek monetary damages for breach of Section 4, electing solely for the remedies of transparency, termination, and public disclosure.
 
 4.5 Safe Harbor.
 
@@ -208,10 +199,7 @@ Nothing in Section 4 shall be construed to prohibit use of the Work in:
   (c) autonomous systems, including unmanned vehicles and weapons
       systems, where targeting is limited to lawful military objectives.
 
-The permissions in this Section 4.6 do not extend to systems primarily
-designed or deployed for domestic law enforcement, civilian population
-monitoring, or suppression of noncombatant political activity, regardless
-of how such systems are labeled or classified by the deploying entity.
+The permissions in this Section 4.6 EXPLICITLY EXCLUDE any system incorporating Law Enforcement Integration. For the avoidance of doubt: Individual self-defense is permitted; state-sponsored mass surveillance via Law Enforcement Integration is prohibited.
 
 5. Submission of Contributions.
 
@@ -265,33 +253,26 @@ hold each Contributor harmless for any liability incurred by, or claims
 asserted against, such Contributor by reason of your accepting any such
 warranty or additional liability.
 
-10. Severability.
+10. Essential Consideration and Indivisibility. You acknowledge that Your agreement to the restrictions in Section 4 (Conditions on Information Sovereignty) constitutes the sole and material consideration provided by You in exchange for the rights granted under this License.
 
-If any provision of this License is held to be unenforceable, such
-provision shall be reformed only to the extent necessary to make it
-enforceable, and the remaining provisions shall continue in full force
-and effect.
+If any portion of Section 4 is held to be unenforceable, invalid, or unconscionable by a court of competent jurisdiction: (a) This entire License is void ab initio (from the beginning) due to failure of consideration; (b) Your usage of the Work constitutes immediate and willful copyright infringement; and (c) Licensor reserves the right to seek statutory damages for said infringement, solely for the purpose of funding the enforcement of the Principles of Information Sovereignty.
+
+11. Governing Law and Dispute Resolution.
+
+11.1 Choice of Law. This License shall be governed by the laws of the jurisdiction in which the Licensor resides or conducts its primary business ("Licensor's Jurisdiction"), excluding its conflict-of-law provisions.
+
+11.2 Venue. Any dispute arising from this License shall be adjudicated in the courts located within [ INSERT JURISDICTION HERE, e.g., King County, Washington ]. If no jurisdiction is specified in the Copyright Notice or attached NOTICE file, venue shall default to the federal or state courts located in the district where the Licensor resides.
+
+11.3 Interpretation of Purpose. The Court is instructed to interpret this License with the understanding that the Licensor’s primary intent is the prevention of censorship and surveillance, not commercial gain. Ambiguities should be resolved in favor of preserving the integrity of the Information Sovereignty conditions set forth in Section 4.
 
 END OF TERMS AND CONDITIONS
 
 APPENDIX: How to apply the Hyphaeic Public License to your work.
 
-To apply this License to your work, attach the following boilerplate
-notice, with the fields enclosed by brackets "[]" replaced with your
-own identifying information. (Don't include the brackets!) The text
-should be enclosed in the appropriate comment syntax for the file
-format.
+Copyright [YEAR] [YOUR NAME / ORGANIZATION]
 
-   Copyright [2026] [Hyphaeic SPC.]
+Licensed under the Hyphaeic Public License, Version 1.0 (the "License"); Jurisdiction for Dispute Resolution: [INSERT YOUR CITY/COUNTY/COUNTRY]
 
-   Licensed under the Hyphaeic Public License, Version 1.0 (the
-   "License"); you may not use this file except in compliance with
-   the License. You may obtain a copy of the License at
+You may not use this file except in compliance with the License. You may obtain a copy of the License at: https://github.com/hyphaeic/hpl
 
-       https://github.com/hyphaeic/hpl
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-   implied. See the License for the specific language governing
-   permissions and limitations under the License.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
