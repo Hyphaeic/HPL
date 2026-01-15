@@ -12,9 +12,10 @@ Whether all of this actually works in court remains to be seen. What follows is 
 
 ## How This Is Designed to Work
 
-HPL-1.0 adds a new section to Apache 2.0: **Conditions on Information Sovereignty** (Section 4). This section creates binding conditions that prohibit use by operators of surveillance infrastructure, suppression infrastructure (including financial deplatforming), data brokers, and entities providing targeted support to any of the above. It is protected by a poison pill in section 10 such that if a judge invalidates section 4, the entire license is void ab initio, as if it was never issued. Then the license becomes a commercial royalty license, payable at the specific commercial license rate set by the licensor.
+HPL-1.0 adds a new section to Apache 2.0: **Conditions on Information Sovereignty** (Section 4). This section creates binding conditions that prohibit use by operators of surveillance infrastructure, suppression infrastructure (including financial deplatforming), data brokers, and entities providing targeted support to any of the above. It is protected by a poison pill in **Essential Consideration and Indivisibility** (Section 10) such that if a judge invalidates section 4, the entire license is void ab initio, as if it was never issued. Then the license becomes a commercial royalty license, payable at the specific commercial license rate set by the licensor.
 
 The strategic objective is to seed the open source ecosystem with code that will inevitably get incorporated into larger codebases—code that creates latent legal exposure for entities enabling digital surveillance and suppression. When they use it without reading carefully, they've theoretically consented to terms that can be weaponized against them. Before trial, Section 4.3 allows you to invoke an independent audit of the violator's moderation systems. They've waived trade secret protection over the existence, methodology, and error rates of these systems (though not source code or model weights). The auditor can publish findings. This is the exposure mechanism—their internal suppression apparatus could become public record through the courts. This is the social benefit prong of the HPL.
+
 
 ### For Licensors: Intended Protections
 
