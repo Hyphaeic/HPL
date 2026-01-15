@@ -186,8 +186,7 @@ retroactively ab initio. Upon such termination:
       and consent to injunctive relief without bond in any court 
       of competent jurisdiction.
 
-Each party shall bear its own costs in any enforcement proceeding, 
-regardless of outcome.
+While Licensor waives claims for compensatory damages, in the event of any legal proceeding arising from a violation of this Section 4 where Licensor is the prevailing party, You agree to pay all reasonable attorneys' fees and costs incurred by Licensor in connection with such proceeding.
 
 4.3 Verification of Compliance.
 
@@ -347,17 +346,15 @@ this License are:
   (b) License termination; and
   (c) Public disclosure of non-compliance.
 
-Licensor explicitly and irrevocably waives all rights to monetary 
-damages, statutory damages, attorneys' fees, costs, audit expenses, 
-and any other pecuniary recovery for breach of this License.
+Licensor explicitly waives all rights to compensatory and statutory monetary damages. This waiver does NOT extend to the recovery of legal fees and costs. Licensor reserves the right to seek, and You agree to pay, reasonable attorneys' fees and costs associated with any successful action to enforce the terms of this License.
 
 END OF TERMS AND CONDITIONS
 
 APPENDIX: How to apply the Hyphaeic Public License to your work.
 
-Copyright [YEAR] [YOUR NAME / ORGANIZATION]
+Copyright [XXXX] [NAME / ORGANISATION]
 
-Licensed under the Hyphaeic Public License, Version 1.0 (the "License"); Jurisdiction for Dispute Resolution: [INSERT YOUR CITY/COUNTY/COUNTRY]
+Licensed under the Hyphaeic Public License, Version 1.0 (the "License"); Jurisdiction for Dispute Resolution: [YOUR CHOSEN JURISTICTION]
 
 You may not use this file except in compliance with the License. You may obtain a copy of the License at: https://github.com/hyphaeic/hpl
 
