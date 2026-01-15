@@ -6,7 +6,7 @@ HPL-1.0 is Apache 2.0 with a legal landmine against entities that enable opaque 
 
 A deployable legal trojan horse for small teams, indie devs, open hardware projects, researchers and others.
 
-infractions cannot resolve for material benefit, only specific injunctionary measures & legal fees to uncover these shadowy machines.buried in Section 4.
+Infractions cannot resolve for material benefit, only specific injunctionary measures & legal fees to uncover these shadowy machines.
 
 The license looks familiar. Compliance teams pattern-match it to Apache, see "permissive," and move on. Developers copy-paste it into large codebases without reading carefully. By the time anyone notices Section 4, the code is already integrated.
 
