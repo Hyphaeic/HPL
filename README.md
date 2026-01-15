@@ -24,7 +24,7 @@ The discovery process is early and public. This licence lists internal moderatio
 
 The goal is to make this code radioactive to surveillance companies and censorship platforms. Their lawyers will flag it. Their compliance teams will say no. And if they use it anyway without reading carefully, they've walked into a trap.
 
-For everyone else—small teams, indie devs, open hardware projects, researchers—the safe harbor means none of this applies to you.
+For everyone else—small teams, indie devs, open hardware projects, researchers—the safe harbor means none of this applies to you. Apache 2.0 with bite. 
 
 ---
 
