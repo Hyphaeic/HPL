@@ -154,7 +154,7 @@ This is the sole consideration for this license. If you cannot pay this price, y
 | You CAN use HPL-licensed software if you... | You CANNOT use HPL-licensed software if you... |
 |---------------------------------------------|------------------------------------------------|
 | Build open source or commercial software | Operate platforms that censor lawful speech without transparency |
-| Are a small team with any moderation policy | Operate surveillance systems targeting civilian populations |
+| Are a small platform with any moderation policy | Operate surveillance systems targeting civilian populations |
 | Develop defense/military applications against lawful combatants | Sell personal data to third parties (data brokerage) |
 | Are an individual, researcher, or hobbyist | Provide cloud/API services to censorship or surveillance operators |
 | Build hardware, firmware, FPGA designs, robotics | Are a dominant platform with viewpoint-based content policies |
