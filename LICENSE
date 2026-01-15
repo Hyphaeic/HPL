@@ -68,10 +68,43 @@ designated in writing by the copyright owner as "Not a Contribution."
 behalf of whom a Contribution has been received by Licensor and
 subsequently incorporated within the Work.
 
-"Suppression Infrastructure" "Suppression Infrastructure" shall mean any system that restricts the transmission or display of content where such restriction is NOT accompanied by: 
-  (a) A permanently accessible, public URL (or API endpoint) listing the cryptographic hash of the restricted content and the specific policy clause violated; AND 
-  (b) A dispute resolution process with a published "Success Rate" metric updated quarterly.
-Failure to implement these technical transparency measures constitutes the operation of Suppression Infrastructure, regardless of the intent or content of the moderation.
+"Suppression Infrastructure" shall mean any system that restricts 
+the transmission, display, or discoverability of lawful expression 
+where such restriction fails ANY of the following requirements:
+
+  (a) TRANSPARENCY: Each restriction must be accompanied by a 
+      permanently accessible public record containing:
+        (i) a cryptographic hash of the restricted content;
+        (ii) the specific policy clause cited as justification; and
+        (iii) a substantive explanation of how the specific content 
+              violated that clause, sufficient for a reasonable 
+              observer to independently evaluate the decision.
+      A bare citation to a policy clause without substantive 
+      explanation (e.g., "violated Policy 7.3") does not satisfy 
+      this requirement.
+
+  (b) ACCOUNTABILITY: The system must provide a dispute resolution 
+      process and publish no less than quarterly:
+        (i) the total number of restrictions applied;
+        (ii) the number of restrictions reversed on dispute; and
+        (iii) disaggregated data sufficient to detect asymmetric 
+              enforcement patterns across viewpoints or speaker 
+              categories.
+
+  (c) NEUTRALITY: Restrictions must be applied uniformly without 
+      regard to the identity, political affiliation, viewpoint, 
+      or perceived status of the speaker. Identical or substantially 
+      similar content must receive identical treatment regardless 
+      of source. Patterns of selective enforcement against 
+      disfavored viewpoints constitute asymmetric application 
+      regardless of facial neutrality of stated policies.
+
+For the avoidance of doubt: Restrictions on content that is unlawful 
+in the affected user's jurisdiction do not implicate this definition, 
+as such content is not "lawful expression." Restrictions based on 
+categories such as "hate speech," "misinformation," or "harmful 
+content" that extend beyond jurisdictionally illegal content 
+constitute viewpoint-based restrictions subject to this definition.
 
 "Surveillance Infrastructure" shall mean any system that targets
 noncombatant populations and:
@@ -83,13 +116,6 @@ noncombatant populations and:
   (c) provides any government, law enforcement, or intelligence entity
       access to user data absent a public, individualized judicial
       order.
-Surveillance Infrastructure includes, without limitation: automated
-license plate recognition systems shared with law enforcement; facial
-recognition databases accessible to government entities for domestic
-use; location tracking systems that aggregate civilian movement
-patterns; communication metadata retention systems targeting domestic
-populations; and sensor networks with law enforcement integration
-deployed against noncombatants.
 
 "Noncombatant" shall mean any individual not actively engaged in armed
 conflict as a member of an organized armed force, consistent with the
@@ -156,24 +182,38 @@ retroactively ab initio. Upon such termination:
   (a) all rights granted hereunder are void as if never granted;
   (b) You shall immediately cease all use, distribution, and
       development of Derivative Works;
-  (c) You acknowledge that monetary damages are inadequate remedy and
-      consent to injunctive relief without bond in any court of
-      competent jurisdiction;
-  (d) You shall be liable for all enforcement costs including
-      reasonable attorneys' fees and expert witness costs.
+  (c) You acknowledge that monetary damages are inadequate remedy 
+      and consent to injunctive relief without bond in any court 
+      of competent jurisdiction.
 
-4.3 Verification of Information Sovereignty. To ensure compliance with the crucial restrictions of Section 4, You grant Licensor the irrevocable right to designate an independent technical auditor to verify Your systems.
+Each party shall bear its own costs in any enforcement proceeding, 
+regardless of outcome.
 
-If a prima facie showing of a Section 4 violation is made (e.g., a credible public report of opaque censorship), You agree to: 
-  (a) Provide the auditor read-only access to relevant moderation logs, training data metadata, and internal policy enforcement tickets; and 
-  (b) Waive any claim of "Trade Secret" regarding the existence or error rates of your moderation algorithms (but not the source code thereof).
+4.3 Verification of Compliance.
 
-Refusal to submit to this audit within thirty (30) days of notice constitutes a material breach triggering Section 10 (Termination).
+To ensure compliance with Section 4, You consent to reasonable 
+verification measures upon a credible public allegation of violation.
 
-In the event that the independent auditor confirms a material breach of Section 4, or if You refuse to submit to the audit, You agree to bear all costs associated with the audit and any subsequent enforcement actions, including Licensor’s full legal fees on an indemnity basis."
+Upon a prima facie showing of a Section 4 violation, You agree to:
+  (a) Permit review by an independent technical auditor, selected 
+      jointly by the parties, of relevant moderation logs and 
+      policy enforcement records;
+  (b) Waive any claim of trade secret regarding the existence or 
+      error rates of moderation systems (but not source code);
+  (c) Permit the auditor to publish a compliance determination.
+
+Each party shall bear its own costs for verification activities, 
+regardless of outcome. The auditor's fees shall be split equally 
+unless the parties agree otherwise.
+
+Refusal to cooperate with reasonable verification within sixty (60) 
+days of a prima facie showing constitutes grounds for Licensor to 
+seek injunctive relief and creates a rebuttable presumption of 
+non-compliance.
 
 4.4 Remedy and Specific Performance. You acknowledge that a breach of Section 4 causes irreparable harm to the Licensor’s moral rights and the integrity of the ecosystem, which cannot be compensated by monetary damages. Accordingly, in the event of any breach or threatened breach of Section 4, You agree that Licensor shall be entitled to Specific Performance and Injunctive Relief to compel compliance with Section 4.3 (Discovery and Audit) and to halt use of the Work, without the requirement of posting a bond. Licensor explicitly waives the right to seek monetary damages for breach of Section 4, electing solely for the remedies of transparency, termination, and public disclosure.
 
+Licensor shall not be liable for any costs, fees, or damages arising from good-faith enforcement of this License, regardless of outcome
 4.5 Safe Harbor.
 
 Section 4.1(a), Section 4.1(c) as applied to Suppression Infrastructure,
@@ -253,9 +293,21 @@ hold each Contributor harmless for any liability incurred by, or claims
 asserted against, such Contributor by reason of your accepting any such
 warranty or additional liability.
 
-10. Essential Consideration and Indivisibility. You acknowledge that Your agreement to the restrictions in Section 4 (Conditions on Information Sovereignty) constitutes the sole and material consideration provided by You in exchange for the rights granted under this License.
+10. Essential Consideration and Indivisibility.
 
-If any portion of Section 4 is held to be unenforceable, invalid, or unconscionable by a court of competent jurisdiction: (a) This entire License is void ab initio (from the beginning) due to failure of consideration; (b) Your usage of the Work constitutes immediate and willful copyright infringement; and (c) Licensor reserves the right to seek statutory damages for said infringement, solely for the purpose of funding the enforcement of the Principles of Information Sovereignty.
+You acknowledge that Your agreement to the restrictions in Section 4 
+constitutes the sole and material consideration for this License.
+
+If Section 4 or any material portion thereof is held unenforceable, 
+invalid, or unconscionable by a court of competent jurisdiction:
+  (a) This License is void in its entirety due to failure of 
+      consideration;
+  (b) All rights previously granted terminate immediately;
+  (c) Continued use of the Work constitutes copyright infringement.
+
+Consistent with Section 12.4, Licensor waives the right to seek 
+statutory or compensatory damages arising from post-termination use. 
+Licensor's sole remedy is injunctive relief to halt unauthorized use.
 
 11. Governing Law and Dispute Resolution.
 
@@ -264,6 +316,40 @@ If any portion of Section 4 is held to be unenforceable, invalid, or unconsciona
 11.2 Venue. Any dispute arising from this License shall be adjudicated in the courts located within [ INSERT JURISDICTION HERE, e.g., King County, Washington ]. If no jurisdiction is specified in the Copyright Notice or attached NOTICE file, venue shall default to the federal or state courts located in the district where the Licensor resides.
 
 11.3 Interpretation of Purpose. The Court is instructed to interpret this License with the understanding that the Licensor’s primary intent is the prevention of censorship and surveillance, not commercial gain. Ambiguities should be resolved in favor of preserving the integrity of the Information Sovereignty conditions set forth in Section 4.
+
+12. Licensor Liability and Enforcement.
+
+12.1 No Enforcement Obligation. Licensor is under no obligation to 
+monitor for, investigate, or enforce violations of this License. 
+Failure to enforce against any violation shall not constitute waiver 
+of the right to enforce against the same or other violations.
+
+12.2 Licensor Liability Cap. Licensor shall not be liable to any 
+party for any costs, fees, damages, or expenses arising from:
+  (a) Licensor's enforcement or attempted enforcement of this License;
+  (b) Licensor's decision not to enforce this License;
+  (c) Any third party's reliance on this License or compliance 
+      determinations made hereunder;
+  (d) Any verification or audit activities under Section 4.3.
+
+To the maximum extent permitted by applicable law, Licensor's total 
+aggregate liability under this License shall not exceed zero dollars 
+($0 USD).
+
+12.3 Good Faith Standard. Enforcement actions under this License 
+shall be conducted in good faith based on credible evidence of 
+violation. This License does not authorize vexatious, frivolous, 
+or bad-faith enforcement actions.
+
+12.4 Exclusive Remedies. Licensor's sole remedies for breach of 
+this License are:
+  (a) Injunctive relief to halt unauthorized use;
+  (b) License termination; and
+  (c) Public disclosure of non-compliance.
+
+Licensor explicitly and irrevocably waives all rights to monetary 
+damages, statutory damages, attorneys' fees, costs, audit expenses, 
+and any other pecuniary recovery for breach of this License.
 
 END OF TERMS AND CONDITIONS
 
