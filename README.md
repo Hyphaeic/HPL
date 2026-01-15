@@ -1,42 +1,107 @@
 # Hyphaeic Public License (HPL-1.0)
 
-## How This Works
+## What This Is
 
-HPL-1.0 is Apache 2.0 with a legal landmine against entities that enable opaque suppression of information, surveillance technologies, data brokers, and their material beneficiaries.
+HPL-1.0 is Apache 2.0 with a legal landmine. It's an experiment in using open source licensing as a weapon against surveillance capitalism and information suppression—designed to create latent legal exposure for entities that hoover up open source code without reading the fine print.
 
-A deployable legal trojan horse for small teams, indie devs, open hardware projects, researchers and others.
+For small teams, indie devs, open hardware projects, and researchers, it should function like a more protective Apache 2.0. For Big Tech platforms with opaque content moderation, surveillance companies, data brokers, and their enablers, it's intended to be radioactive: code that compliance teams flag as high-risk, and that creates real legal exposure if they use it anyway.
 
-Licensors are extensively protected. Fees are covered for the licensor upon winning, but licensors cannot seek additional monetary damages beyond the commercial royalty conversion. Using an aligned lawyer with solid evidence, it should be $0 in, $0 out—or better, they pay your fees.
+Whether all of this actually works in court remains to be seen. What follows is the theory.
 
-It lists explicit terms, including differentiating law enforcement and military usage against lawful combatants.
+---
 
-The objective is to lay license traps in the open source ecosystem that will inevitably get scooped up into larger codebases of entities enabling digital surveillance & suppression. These entities are then in violation of this license, which opens grounds to seek injunction.
+## How This Is Designed to Work
 
-The discovery process is early and public. This licence exposes internal moderation information and brings it into the public's eye through the courts.
+HPL-1.0 adds a single section to Apache 2.0: **Conditions on Information Sovereignty** (Section 4). This section creates binding conditions that prohibit use by operators of surveillance infrastructure, suppression infrastructure (including financial deplatforming), data brokers, and entities providing targeted support to any of the above.
 
-1. **Retroactive termination**: If they violate Section 4, the license is void *ab initio*—as if it was never granted. All prior use becomes copyright infringement.
+The strategic objective is to seed the open source ecosystem with code that will inevitably get incorporated into larger codebases—code that creates latent legal exposure for entities enabling digital surveillance and suppression. When they use it without reading carefully, they've theoretically consented to terms that can be weaponized against them.
 
-2. **Audit consent**: They've agreed to let an independent auditor inspect their moderation logs and policy enforcement. They've waived trade secret protection over their moderation systems.
+### For Licensors: Intended Protections
 
-3. **Commercial royalty conversion**: If a court won't grant an injunction, the license converts to a commercial license at the rate specified by the licensor. Default: $10,000/month, retroactive from first violation. Foundational projects can set this at $100k, $500k, or $1M/month.
+**Zero financial risk (in theory).** The license attempts to cap licensor liability at $0. If you bring a claim in good faith and lose, the structure is designed so you owe nothing. Whether courts will honor this in all circumstances is untested.
 
-4. **Fee shifting**: If the licensor wins enforcement, the violator pays attorneys' fees.
+**Fee shifting on wins.** If you prevail in enforcement, the violator has agreed to pay your attorneys' fees and costs. With solid evidence and aligned counsel, enforcement could be $0 in, $0 out—or better, they subsidize the effort.
 
-5. **Jurisdiction selection**: Disputes happen where the licensor lives, not where the violator is headquartered.
+**No enforcement obligation.** You're not required to monitor for violations or pursue enforcement. Failure to enforce one violation shouldn't waive your right to enforce others. You can ignore violations for years and still act when strategically advantageous.
 
-6. **No fallback**: The "Essential Consideration" clause means if a court strikes down Section 4, the entire license is void. They don't get Apache 2.0 terms—they get nothing.
+**Collective action provisions.** The license contemplates multiple licensors coordinating enforcement, sharing evidence, and pooling resources. You can also assign enforcement rights to digital rights organizations or legal defense collectives—keep your copyright, let others handle litigation.
 
-7. **Collective enforcement**: Multiple licensors can coordinate actions, share evidence, and pool resources. Enforcement rights can be assigned to digital rights organizations.
+### For Licensors: What You Can Seek
 
-The goal is to make this code radioactive to surveillance companies, data brokers, and censorship platforms. Their lawyers will flag it. Their compliance teams will say no. And if they use it anyway without reading carefully, they've walked into a trap.
+**Injunctive relief.** The primary remedy is a court order compelling the violator to stop using your code. They've pre-consented to injunctions without bond, which is intended to remove a procedural barrier that normally protects defendants. Courts may or may not honor this consent.
 
-For everyone else—small teams, indie devs, open hardware projects, researchers—the safe harbor means none of this applies to you. Apache 2.0 with bite.
+**Public audit and discovery.** Before trial, Section 4.3 allows you to invoke an independent audit of the violator's moderation systems. They've waived trade secret protection over the existence, methodology, and error rates of these systems (though not source code or model weights). The auditor can publish findings. This is the exposure mechanism—their internal suppression apparatus could become public record through the courts.
+
+**Commercial royalty conversion.** If a court declines to issue an injunction, the license converts from royalty-free to commercial. The violator would owe the Commercial Royalty Amount (default: $10,000/month, customizable via NOTICE file) retroactively from the date of first violation, continuing monthly until the code is provably removed from their systems. The framing here matters: this isn't structured as damages, but as what the license would have cost without the ethical exchange. Courts are generally more comfortable with "you didn't pay, now you owe the price" than with penalty clauses.
+
+**What you explicitly cannot seek:** Compensatory or statutory damages beyond the commercial royalty and legal fees. This is intentional. The spirit of this license is deterrence and exposure, not extraction. You're seeking compliance and transparency, not a payday. This framing may strengthen the licensor's position—it's harder to accuse someone of running a shakedown scheme when money isn't the goal.
+
+### Why This Structure Might Work
+
+**The trap is in the consent.** By exercising rights under HPL, users agree to:
+- Audit by an independent party selected from the licensor's pre-approved list
+- Waiver of trade secret claims over moderation systems
+- Litigation in the licensor's home jurisdiction, not theirs
+- Injunctive relief without bond
+- Retroactive commercial royalties if they fight and lose on injunction
+- Fee shifting if they lose entirely
+
+Most open source licenses create obligations. HPL attempts to create *exposure*.
+
+**The discovery mechanism is early and intended to be public.** Section 4.3 allows audit invocation upon a prima facie showing of violation—credible evidence, not proof beyond doubt. The audit is designed to happen before formal litigation, conducted by auditors the licensor has pre-approved (or selected from qualified professionals). The auditor reviews moderation logs, policy enforcement records, and aggregate statistics on content restrictions. They can publish a compliance determination. The goal: internal suppression apparatus—what content was removed, why, how decisions were made, whether enforcement was neutral—enters the public record. For platforms that rely on opacity to avoid accountability, this exposure may be the real punishment.
+
+**Jurisdiction selection attempts to invert the power dynamic.** Disputes are to be adjudicated in the Licensor's Jurisdiction—your home turf, not theirs. In theory, a solo developer in rural Washington could force a Delaware corporation to litigate in Jefferson County. Big Tech's usual advantage—unlimited legal resources deployed in friendly forums—might be neutralized when they're fighting on your ground. How courts treat forum selection clauses in this context remains to be seen.
+
+**The poison pill aims to prevent fallback.** Section 10 makes Section 4 compliance the sole consideration for the license. If a court finds Section 4 unenforceable, the intent is that the entire license is void—not just the ethical restrictions, but the grant of rights itself. Violators shouldn't be able to argue "your restrictions are invalid, so I get Apache 2.0 for free." They get nothing. All prior use becomes retroactive copyright infringement. Whether courts will enforce this "all or nothing" structure is genuinely uncertain.
+
+**Compliance teams should flag this.** Even if some provisions face legal challenges, the primary function is signaling. Enterprise OSPO teams scan for license risks. HPL's audit consent, trade secret waiver, jurisdiction selection, and retroactive royalty provisions should trigger review. Legal will likely say "high risk, avoid." That's the deterrent working before any lawsuit is filed. And if they ignore the flag? They've walked into exactly the trap you laid.
+
+### What Gets Exposed
+
+Section 4.3 specifically targets:
+- Content moderation logs and policy enforcement records
+- Documentation of moderation policies and their implementation
+- Aggregate statistics on enforcement actions by category
+- Records of financial service denials and stated justifications
+- The existence, methodology, and error rates of moderation systems
+
+Explicitly **not** exposed: source code, model weights, or proprietary algorithms. The target is evidence of suppression patterns, not implementation details.
+
+### The Intended Enforcement Flow
+
+1. **Detection:** You discover (or are informed) that a violating entity is using HPL-licensed code
+2. **Prima facie showing:** You compile credible evidence of Section 4 violation (statistical analysis, internal documents, complaint patterns, public statements)
+3. **Audit invocation:** You provide written notice invoking Section 4.3
+4. **Auditor selection:** 30 days to agree jointly; if deadlocked, you select from your pre-approved list or petition the court
+5. **Audit:** 60 days to complete; auditor reviews records, publishes determination
+6. **Enforcement decision:** Based on findings, seek injunction, license termination, and/or commercial royalty conversion
+7. **Litigation:** In your jurisdiction, with fee shifting if you prevail
+
+The audit phase is designed to happen before formal litigation. It's intended to create public exposure regardless of whether you ultimately go to court.
+
+### Why Royalty Conversion Instead of Damages
+
+Traditional damages face two problems in this context:
+
+**The penalty problem.** Liquidated damages clauses are vulnerable to being struck down as unenforceable penalties. Courts ask: "Is this amount a reasonable estimate of actual harm, or is it punishment?" For a free license, that's a hard question to answer convincingly.
+
+**The eBay problem.** Since *eBay v. MercExchange* (2006), courts don't automatically grant injunctions for IP violations. You need to show irreparable harm. If you're seeking money, courts may say "damages are adequate remedy" and deny the injunction you actually want.
+
+Commercial royalty conversion attempts to solve both:
+
+- **It's framed as price, not penalty.** The license was free because of the ethical exchange. Violate the ethics, lose the discount. $10k/month (or whatever you set) is positioned as what a commercial license for this software would cost. Courts understand pricing.
+
+- **It's a fallback, not the goal.** By explicitly seeking injunction first and only invoking royalties if injunction is denied, you demonstrate that your primary interest is stopping the behavior, not collecting money. This framing may actually *help* the irreparable harm argument.
+
+- **It accrues until removal.** Unlike one-time damages, monthly royalties continue until the code is provably removed. This creates ongoing pressure to actually comply rather than just pay and continue.
+
+Whether this reframing survives judicial scrutiny remains untested.
 
 ---
 
 ## Who This Is For
 
-| You | What HPL Gives You |
+| You | What HPL Intends to Give You |
 |-----|-------------------|
 | **Solo developers** | Use it, ship it, sell it. No restrictions. |
 | **Micro-entities (≤5 people, ≤$1M)** | Full safe harbor. Do whatever you want. |
@@ -52,7 +117,7 @@ For everyone else—small teams, indie devs, open hardware projects, researchers
 
 ## Who This Is Not For
 
-| Them | What HPL Denies Them |
+| Them | What HPL Intends to Deny Them |
 |------|---------------------|
 | **Platforms that censor lawful speech without transparency** | Can't use your code |
 | **Surveillance companies building tools to track civilians** | Can't use your code |
@@ -157,7 +222,7 @@ Cross a threshold? You have **12 months** to comply with the new tier's requirem
 
 You get **NO safe harbor at any tier** if ANY of these apply:
 
-| Test | Threshold | What It Catches |
+| Test | Threshold | What It's Designed to Catch |
 |------|-----------|-----------------|
 | **Revenue Test** | >10% from surveillance/suppression/data brokerage | Palantir, Clearview, data brokers |
 | **Marketing Test** | Actively markets surveillance, law enforcement intelligence, or content suppression | Ring, police tech vendors |
@@ -241,7 +306,7 @@ Content that is legal **where the user is physically located**—not where your 
 - True Threats (serious expressions of intent to commit violence against specific individuals)
 - Direct incitement to imminent lawless action (Brandenburg standard)
 
-Platforms may rely on reasonable location indicators (IP, registration info, user-provided data). Good-faith reliance on location indicators protects platforms from users who lie about where they are.
+Platforms may rely on reasonable location indicators (IP, registration info, user-provided data). Good-faith reliance on location indicators should protect platforms from users who lie about where they are.
 
 ---
 
@@ -320,7 +385,7 @@ Defense applications explicitly exclude systems with Law Enforcement Integration
 
 ## Enforcement Provisions
 
-| Provision | Effect |
+| Provision | Intended Effect |
 |-----------|--------|
 | **Retroactive termination** | Violation voids the license *ab initio*—all past use becomes infringement |
 | **Audit consent** | Violators agree to independent technical audits |
@@ -335,7 +400,7 @@ Defense applications explicitly exclude systems with Law Enforcement Integration
 
 ## Commercial Royalty Conversion
 
-The royalty-free license is contingent on ethical compliance. Violate Section 4, and the license converts to commercial terms.
+The royalty-free license is contingent on ethical compliance. Violate Section 4, and the license is designed to convert to commercial terms.
 
 **Default rate:** $10,000 USD per month, retroactive from first violation.
 
@@ -349,19 +414,19 @@ The royalty-free license is contingent on ethical compliance. Violate Section 4,
 | Foundational platform | $250,000 - $1,000,000/month |
 | Industry-standard tool | $1,000,000+/month |
 
-A foundational library with $500k/month royalty creates $6M/year exposure. Retroactive over 3 years of infringement: $18M. That's not "cost of doing business"—that's existential.
+A foundational library with $500k/month royalty creates $6M/year exposure. Retroactive over 3 years of infringement: $18M. That's not "cost of doing business"—that's potentially existential.
 
-The amount must be defensible as "reasonable commercial value." Consider what a proprietary license would cost for similar software.
+The amount should be defensible as "reasonable commercial value." Consider what a proprietary license would cost for similar software.
 
 ---
 
 ## Licensor Protections
 
-| Provision | Effect |
+| Provision | Intended Effect |
 |-----------|--------|
 | **No enforcement obligation** | You don't have to police violations |
-| **Zero liability** | You can't be sued for enforcement decisions |
-| **Good faith standard** | Prevents vexatious enforcement |
+| **Zero liability** | You shouldn't be liable for enforcement decisions |
+| **Good faith standard** | Designed to prevent vexatious enforcement |
 | **Damages waiver** | Seeking compliance, not extraction |
 | **Collective action** | Coordinate with other licensors |
 | **Assignment** | Hand off enforcement to digital rights orgs |
@@ -400,9 +465,9 @@ Death by a thousand cuts becomes death by a thousand licensors acting together.
 
 ## Essential Consideration
 
-Section 4 compliance is the sole consideration for the license. If a court finds Section 4 unenforceable, the entire license is void. You don't fall back to Apache 2.0—you lose all rights.
+Section 4 compliance is the sole consideration for the license. If a court finds Section 4 unenforceable, the intent is that the entire license is void. You don't fall back to Apache 2.0—you lose all rights.
 
-This prevents the attack: "Your restrictions are unenforceable, so I get permissive licensing for free."
+This is designed to prevent the attack: "Your restrictions are unenforceable, so I get permissive licensing for free."
 
 ---
 
@@ -413,7 +478,7 @@ Upon first commercial deployment of HPL-licensed code, you must:
 1. **Publish a dated statement** acknowledging the license terms at a public URL
 2. **Notify the Licensor** within 30 days at the address in the NOTICE file
 
-Failure to comply doesn't automatically terminate the license, but it's evidence of bad faith in any enforcement proceeding.
+Failure to comply doesn't automatically terminate the license, but it may be evidence of bad faith in any enforcement proceeding.
 
 ---
 
@@ -421,7 +486,7 @@ Failure to comply doesn't automatically terminate the license, but it's evidence
 
 **I'm a solo dev / small team. Do I need to worry about any of this?**
 
-No. The safe harbor covers you completely for content moderation. Just don't build surveillance tools for police or sell user data.
+No. The safe harbor is designed to cover you completely for content moderation. Just don't build surveillance tools for police or sell user data.
 
 **What's the difference between Tier 0 and Tier 1?**
 
@@ -465,15 +530,15 @@ If surveillance, data brokerage, or suppression tools generate >10% of your reve
 
 **What if a court strikes down Section 4?**
 
-The entire license is void. This prevents the "restrictions are unenforceable so I get Apache 2.0" attack.
+The intent is that the entire license is void. This is designed to prevent the "restrictions are unenforceable so I get Apache 2.0" attack.
 
 **Can I set the commercial royalty higher than $10k/month?**
 
-Yes. Specify the amount in your NOTICE file. Foundational projects might set $100k, $500k, or even $1M/month. The amount must be defensible as reasonable commercial value.
+Yes. Specify the amount in your NOTICE file. Foundational projects might set $100k, $500k, or even $1M/month. The amount should be defensible as reasonable commercial value.
 
 **Is this enforceable?**
 
-Some provisions may face challenges. The primary function is signaling: compliance teams will flag this as high-risk regardless of ultimate enforceability. And if they ignore the flag? They've walked into a trap with audit consent, fee shifting, and retroactive royalties.
+Honestly? Some provisions may face challenges, and we won't know until it's tested. The primary function is signaling: compliance teams should flag this as high-risk regardless of ultimate enforceability. And if they ignore the flag? They've walked into a trap with audit consent, fee shifting, and retroactive royalties. Whether that trap holds up in court is the experiment.
 
 ---
 
