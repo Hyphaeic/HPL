@@ -10,7 +10,7 @@ Whether all of this actually works in court remains to be seen. What follows is 
 
 ---
 
-## How This Is Designed to Work
+## How The HPL Is Designed to Work
 
 HPL-1.0 adds a new section to Apache 2.0: Conditions on Information Sovereignty (Section 4). This section creates binding conditions that prohibit use by operators of surveillance infrastructure, suppression infrastructure (including financial deplatforming), data brokers, and entities providing targeted support to any of the above.
 Two mechanisms protect the license from attack:
